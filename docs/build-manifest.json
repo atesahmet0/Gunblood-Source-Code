@@ -1,0 +1,61 @@
+{
+  "ruffle_version": "0.7.1",
+  "rebuilt_swf_sha256": "eac438bc7572d1df5aa7fe6d6a6b126c14ab675a2cfb2cf68d5e5bd7b6bcbb99",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/gunblood.swf",
+      "bytes": 1907310,
+      "sha256": "eac438bc7572d1df5aa7fe6d6a6b126c14ab675a2cfb2cf68d5e5bd7b6bcbb99"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3946,
+      "sha256": "939cac46720938e7e03357911755a92575a8cef42916e1ab1982718a30a8e0b4"
+    },
+    {
+      "path": "ruffle/172de42e6619eac8f371.wasm",
+      "bytes": 14302754,
+      "sha256": "1ed33b9b71a6b01b9aafafed660be343ffeb2d246c5d79e6425a32bf93e38207"
+    },
+    {
+      "path": "ruffle/878d548199cddef07035.wasm",
+      "bytes": 14227884,
+      "sha256": "af9b6a13a8f5e8d305bc3ce28a4edf3f6242df1183e8576ad4ca086e9f21eaea"
+    },
+    {
+      "path": "ruffle/LICENSE_APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "path": "ruffle/LICENSE_MIT",
+      "bytes": 1097,
+      "sha256": "4de9338a7879c68e911742a7d691f0797ff1ef8d8a6fb978b0c711e258fe959c"
+    },
+    {
+      "path": "ruffle/core.ruffle.16d61072ac7fdc4d5013.js",
+      "bytes": 108322,
+      "sha256": "d27c6bdce2a34afb32e8dfa40970bc7e86cbcb912f92db7eb3e1ac70e943bd82"
+    },
+    {
+      "path": "ruffle/core.ruffle.994eeef0a471a88cd0e3.js",
+      "bytes": 114743,
+      "sha256": "d89e507ee60d550629e9229aa1e4dd4f9e75ec7db271e0135cbc87dab042ea51"
+    },
+    {
+      "path": "ruffle/ruffle.js",
+      "bytes": 465885,
+      "sha256": "26036a94567088dfb3de88a759e8ed10a4cea07b29500af36f345eef42420098"
+    },
+    {
+      "path": "upstream-hosting-terms.html",
+      "bytes": 4153,
+      "sha256": "af5eca132effce96c9af1898c0faffbc32e3cef67665cd3aea5378049f7d22b6"
+    }
+  ]
+}

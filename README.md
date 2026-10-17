@@ -18,6 +18,10 @@ This is an **unofficial decompilation and source recovery**, not the original au
 | [runtime-validation](runtime-validation) | Local Ruffle harness, test report and screenshots |
 | [tools](tools) | Reproduction and validation scripts |
 
+## Play online
+
+[Play the rebuilt game on GitHub Pages](https://atesahmet0.github.io/Gunblood-Source-Code/). The static player retains developer links and the original SWF ad hooks.
+
 ## Play locally
 
 Requires Python 3.12+ for the runtime download helper. Download the pinned, integrity-checked Ruffle web runtime, then start a localhost server:
@@ -68,3 +72,7 @@ Controlled win tests used the game's NOHIT cheat; the initial damage/loss test d
 - Input SWF SHA-1: `f3a4dbfed5daa55d4bc5e70645557b4865ffd801`
 
 This repository does not claim an open-source license for the original game or its assets. Please retain the creator attribution and consult [NOTICE.md](NOTICE.md).
+
+## GitHub Pages deployment
+
+Pages publishes the `docs/` folder from `main`. To regenerate it, run `python3 tools/fetch-ruffle.py`, then `python3 tools/build-pages.py`, and commit the generated `docs/` files. The build pins Ruffle 0.7.1 and checks the rebuilt SWF against its validated SHA-256. The deployment contains the browser runtime and its licenses; Java/JPEXS tool binaries remain excluded. The local validation harness remains separate from the public player.

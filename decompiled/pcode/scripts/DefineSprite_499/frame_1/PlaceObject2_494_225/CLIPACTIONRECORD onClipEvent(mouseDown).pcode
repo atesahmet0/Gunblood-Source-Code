@@ -1,0 +1,55 @@
+Push false, 633704652, 633704988
+Equals
+Not
+If loc00cd
+loc0016:If loc0036
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"
+loc0036:Jump loc0046
+loc003b:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0057
+loc0046:Push 1, "gameon", "_parent"
+Jump loc003b
+loc0057:If loc0101
+Jump loc006c
+loc0061:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc007d
+loc006c:Push 1, "setmouse", "_parent"
+Jump loc0061
+loc007d:If loc0101
+Jump loc009a
+loc0087:GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+CallMethod
+Jump loc00af
+loc009a:Push 0f, "`", "_parent", "\"", "_parent"
+Jump loc0087
+loc00af:Pop
+Push 318124773, 318124876
+Equals
+Not
+If loc0101
+GetURL2 false, false, 2
+Jump loc00f3
+loc00cd:ConstantPool "gameon", "_parent", "setmouse", "`", "\""
+Jump loc00fa
+loc00f3:Unknown_73
+BitURShift
+Jump loc0101
+loc00fa:PushDuplicate
+Not
+Jump loc0016
+loc0101:

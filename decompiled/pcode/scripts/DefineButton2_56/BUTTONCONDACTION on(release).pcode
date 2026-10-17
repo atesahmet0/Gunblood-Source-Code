@@ -1,0 +1,233 @@
+Push false, 1297462115, 1297462222
+Equals
+Not
+If loc02ba
+loc0016:If loc0020
+ConstantPool
+loc0020:Jump loc003f
+loc0025:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Push "if"
+GetVariable
+PushDuplicate
+Not
+If loc0063
+Jump loc0057
+loc003f:Push 0f, "start", 45, "allsounds", "_root"
+Jump loc0025
+loc0057:Pop
+Push "Enter Name", "if"
+GetVariable
+StackSwap
+Equals2
+Not
+loc0063:Not
+If loc0214
+Jump loc0074
+loc006e:DefineLocal
+Jump loc008a
+loc0074:Push "#", 0f, " #", 0f
+Jump loc006e
+loc008a:DefineLocal
+loc008b:Push "_root", "#"
+GetVariable
+StackSwap
+GetVariable
+Push ";!"
+GetMember
+Push "length"
+GetMember
+Less2
+Not
+If loc00de
+Jump loc00c7
+loc00ad:GetVariable
+StackSwap
+GetVariable
+Push ";!"
+GetMember
+Push "#"
+GetVariable
+GetMember
+Add2
+SetVariable
+GetVariable
+Increment
+SetVariable
+Jump loc00d9
+loc00c7:Push "#", "#", " #", "_root", " #"
+Jump loc00ad
+loc00d9:Jump loc008b
+loc00de:Push "\'", 0f
+DefineLocal
+Jump loc00ee
+loc00ee:Push "#", 0f
+Jump loc00fd
+loc00fd:DefineLocal
+loc00fe:Push "_root", "#"
+GetVariable
+StackSwap
+GetVariable
+Push "null"
+GetMember
+Push "length"
+GetMember
+Less2
+Not
+If loc015e
+Jump loc0147
+loc0120:GetVariable
+StackSwap
+GetVariable
+Push "null"
+GetMember
+Push "#"
+GetVariable
+GetMember
+Push "_root"
+GetVariable
+Push "<%"
+GetMember
+Divide
+Add2
+SetVariable
+GetVariable
+Increment
+SetVariable
+Jump loc0159
+loc0147:Push "#", "#", "\'", "_root", "\'"
+Jump loc0120
+loc0159:Jump loc00fe
+loc015e:Push 0f, " #"
+GetVariable
+StackSwap
+Greater
+PushDuplicate
+Not
+If loc017e
+Pop
+Push "\'", " #"
+GetVariable
+StackSwap
+GetVariable
+Equals2
+loc017e:PushDuplicate
+Not
+If loc0191
+Pop
+Push "[", "_root"
+GetVariable
+StackSwap
+GetMember
+Not
+loc0191:PushDuplicate
+Not
+If loc01aa
+Pop
+Push "_root", " #"
+GetVariable
+StackSwap
+GetVariable
+Push "totalscore"
+GetMember
+Equals2
+loc01aa:PushDuplicate
+Not
+If loc01dd
+Pop
+Push "_root", " #"
+GetVariable
+StackSwap
+GetVariable
+Push "throw"
+GetMember
+Push "_root"
+GetVariable
+Push "`$"
+GetMember
+Add2
+Push "_root"
+GetVariable
+Push "3%"
+GetMember
+Add2
+Equals2
+loc01dd:Not
+If loc0214
+Jump loc0207
+loc01e8:GetVariable
+StackSwap
+GetVariable
+Push "if"
+GetVariable
+Push 3, "_root"
+GetVariable
+Push "%$"
+CallMethod
+Jump loc0213
+loc0207:Push " #", "\'"
+Jump loc01e8
+loc0213:Pop
+loc0214:Push "if"
+GetVariable
+PushDuplicate
+Not
+If loc022d
+Pop
+Push "Enter Name", "if"
+GetVariable
+StackSwap
+Equals2
+Not
+loc022d:PushDuplicate
+Not
+If loc0242
+Pop
+Push 0f, " #"
+GetVariable
+StackSwap
+Greater
+loc0242:Not
+If loc0271
+Jump loc0256
+loc024d:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc026c
+loc0256:Push 7, 1, "gotoAndStop", "_root"
+Jump loc024d
+loc026c:Jump loc0286
+loc0271:Push 5, 1, "gotoAndStop", "_root"
+GetVariable
+StackSwap
+CallMethod
+Pop
+loc0286:Push 0f, "removeMovieClip", "_parent"
+GetVariable
+StackSwap
+CallMethod
+Pop
+Push 1092570030, 1092570114
+Equals
+Not
+If loc0351
+GoToLabel "{invalid_utf8=142}v24\x13{invalid_utf8=136}"
+Jump loc0341
+loc02ba:ConstantPool "if", "start", "allsounds", "_root", "Enter Name", "#", " #", ";!", "length", "\'", "null", "<%", "[", "totalscore", "throw", "`$", "3%", "%$", "gotoAndStop", "removeMovieClip", "_parent"
+Jump loc034a
+loc0341:Unknown_72
+BitURShift
+Unknown_6e
+Unknown_74
+Jump loc0351
+loc034a:PushDuplicate
+Not
+Jump loc0016
+loc0351:

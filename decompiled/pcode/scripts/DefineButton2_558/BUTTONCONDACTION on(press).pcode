@@ -1,0 +1,26 @@
+Push false, 2111258217, 2111258497
+Equals
+Not
+If loc006f
+loc0016:If loc0038
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
+loc0038:Jump loc0060
+loc003d:RandomNumber
+Add2
+Push "&g="
+Add2
+Push "_root"
+GetVariable
+Push "use"
+GetMember
+Add2
+Push "_blank"
+GetURL2 false, false, 0
+Jump loc00c6
+loc0060:Push "http://www.gunblood.com/hiscores_gunblood.php?rannum=", 99
+Jump loc003d
+loc006f:ConstantPool "&g=", "_root", "use", "_blank", "http://www.gunblood.com/hiscores_gunblood.php?rannum="
+PushDuplicate
+Not
+Jump loc0016
+loc00c6:

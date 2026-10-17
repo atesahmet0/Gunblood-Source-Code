@@ -1,0 +1,38 @@
+Push false, 1290003508, 1290003819
+Equals
+Not
+If loc0098
+loc0016:If loc003a
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
+loc003a:Jump loc0074
+loc003f:RandomNumber
+Add2
+DefineLocal
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetVariable
+GetMember
+Push "start"
+CallMethod
+Pop
+RandomNumber
+Push 1, "_root"
+GetVariable
+Push "allsounds"
+GetMember
+Push "false"
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+Jump loc00ca
+loc0074:Push 40, 0f, "false", "allsounds", "_root", "false", 8, 7
+Jump loc003f
+loc0098:ConstantPool "start", "_root", "allsounds", "false", "setVolume"
+PushDuplicate
+Not
+Jump loc0016
+loc00ca:

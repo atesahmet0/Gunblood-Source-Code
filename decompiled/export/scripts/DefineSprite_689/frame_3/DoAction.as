@@ -1,0 +1,15 @@
+var _temp_9 = 1;
+var _temp_8 = " each";
+var _temp_7 = "\"!";
+var _temp_6 = "www.gunblood.com/play/?g=";
+var _temp_5 = "use";
+var _temp_4 = "_root";
+var _temp_3 = "7#";
+var _temp_2 = "use";
+var _temp_1 = "_root";
+var _temp_1 = "newscores";
+_root[_temp_1] = 1;
+set(_temp_3,eval(_temp_1)[_temp_2]);
+set(_temp_7,_temp_6 + eval(_temp_4)[_temp_5]);
+eval(_temp_8);
+Selection.setFocus();

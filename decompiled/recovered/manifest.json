@@ -1,0 +1,47 @@
+[
+  {
+    "path": "RECOVERY.md",
+    "bytes": 5599,
+    "sha256": "4e8a3db22c7b0d72a8b7b875fdafe4b1aecf88d1b14bed7919e0e6d5d39cfad8"
+  },
+  {
+    "path": "differential-verification.json",
+    "bytes": 21432,
+    "sha256": "c009c87fa9f95b63938391128dcf3bf1fd4d30c7552286328c55763649cb854d"
+  },
+  {
+    "path": "gameplay.as",
+    "bytes": 64495,
+    "sha256": "35de0f93705ea0622996e632310d6629ce24a3a40d4eee770639d2a07a85b247"
+  },
+  {
+    "path": "gameplay.ffdec18.as",
+    "bytes": 59395,
+    "sha256": "29a905d49ae33cdd73c0c37d63470b2ec107d6ef2b629cc9e2336960b2dc099b"
+  },
+  {
+    "path": "original-bytecode.json",
+    "bytes": 74133,
+    "sha256": "3cdee1d67a1e056feaca8342a7c9cfda77a1f0bede3d959dbb62a2381aac6ecb"
+  },
+  {
+    "path": "pseudo-site-recovery.json",
+    "bytes": 17152,
+    "sha256": "02e30efee799ddc03fa698a3e2dc4f038ef8a6f4842b43f5aba49c2d46a64e2e"
+  },
+  {
+    "path": "recovery-map.json",
+    "bytes": 17034,
+    "sha256": "45b01a13b360c59b0f5d00e8cf99a11d4d0d1ac69bdd176a702170e18d993064"
+  },
+  {
+    "path": "recovery-verification.json",
+    "bytes": 938,
+    "sha256": "c91783b4ac5393ca8337adb531909346cad15e574cb03e4e90a06a1f1ccac877"
+  },
+  {
+    "path": "validation/recompiled-check.swf",
+    "bytes": 1907310,
+    "sha256": "eac438bc7572d1df5aa7fe6d6a6b126c14ab675a2cfb2cf68d5e5bd7b6bcbb99"
+  }
+]

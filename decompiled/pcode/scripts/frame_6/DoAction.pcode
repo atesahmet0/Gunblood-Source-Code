@@ -1,0 +1,99 @@
+Push false, 570416028, 570416198
+Equals
+Not
+If loc017d
+loc0016:If loc002a
+ConstantPool "A", "B", "C", "D", "E"
+loc002a:Jump loc0061
+loc002f:GetVariable
+StackSwap
+Push "HIGH"
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Equals2
+Not
+Jump loc007d
+loc0061:Push "HIGH", "break", "_visible", "each", "_visible", "4\"", "_visible", " in", "_quality", "_root"
+Jump loc002f
+loc007d:If loc00ab
+Jump loc0090
+loc0087:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc00a6
+loc0090:Push 2, 1, "gotoAndStop", "@#"
+Jump loc0087
+loc00a6:Jump loc0118
+loc00ab:Push "MEDIUM", "break"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc00e4
+Jump loc00c9
+loc00c0:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc00df
+loc00c9:Push 2, 1, "gotoAndStop", "continue"
+Jump loc00c0
+loc00df:Jump loc0118
+loc00e4:Push "LOW", "break"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0118
+Jump loc0101
+loc00f9:GetVariable
+StackSwap
+CallMethod
+Jump loc0117
+loc0101:Push 2, 1, "gotoAndStop", "try"
+Jump loc00f9
+loc0117:Pop
+loc0118:Push 1, "case"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0154
+Jump loc0139
+loc0130:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc014f
+loc0139:Push 2, 1, "gotoAndStop", "]#"
+Jump loc0130
+loc014f:Jump loc01f2
+loc0154:Push 2, 1, "gotoAndStop", "class"
+GetVariable
+StackSwap
+CallMethod
+Pop
+Push 1439380084, 1439380446
+Equals
+Not
+If loc01f2
+loc017d:ConstantPool "HIGH", "break", "_visible", "each", "4\"", " in", "_quality", "_root", "gotoAndStop", "@#", "MEDIUM", "continue", "LOW", "try", "case", "]#", "class"
+PushDuplicate
+Not
+Jump loc01ed
+loc01ed:Jump loc0016
+loc01f2:

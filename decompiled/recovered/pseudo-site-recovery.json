@@ -1,0 +1,586 @@
+[
+  {
+    "ffdec26_line": 2066,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2067,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2073,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2073,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2102,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2117,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2154,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2162,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2254,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2262,
+    "ffdec26_function": "_SafeStr_12",
+    "original_function": "@$",
+    "recovered_function": "updateGameplay",
+    "original_bytecode_definition_offset": 13793,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2726,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2755,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2760,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2780,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2787,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2792,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2793,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2794,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2795,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2805,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2805,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 2805,
+    "ffdec26_function": "_SafeStr_18",
+    "original_function": " set",
+    "recovered_function": "applyFatalUpperBodyHit",
+    "original_bytecode_definition_offset": 19688,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3045,
+    "ffdec26_function": "SubStomach1",
+    "original_function": "SubStomach1",
+    "recovered_function": "SubStomach1",
+    "original_bytecode_definition_offset": 21617,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3138,
+    "ffdec26_function": "SubStomach2",
+    "original_function": "SubStomach2",
+    "recovered_function": "SubStomach2",
+    "original_bytecode_definition_offset": 22345,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3199,
+    "ffdec26_function": "SubCrotch",
+    "original_function": "SubCrotch",
+    "recovered_function": "SubCrotch",
+    "original_bytecode_definition_offset": 23074,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3300,
+    "ffdec26_function": "_SafeStr_21",
+    "original_function": "each ",
+    "recovered_function": "applyLegHitVariant1",
+    "original_bytecode_definition_offset": 23567,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3377,
+    "ffdec26_function": "_SafeStr_22",
+    "original_function": "catch",
+    "recovered_function": "applyLegHitVariant2",
+    "original_bytecode_definition_offset": 24368,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3449,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3450,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3451,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3452,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3453,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3454,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3559,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3584,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3585,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3586,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3599,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3599,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3625,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3632,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3743,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3744,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3745,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3746,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3747,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3748,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3749,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3750,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3751,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 3752,
+    "ffdec26_function": "_SafeStr_24",
+    "original_function": "!%",
+    "recovered_function": "dispatchCharacterHit",
+    "original_bytecode_definition_offset": 25509,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4518,
+    "ffdec26_function": "_SafeStr_31",
+    "original_function": "]",
+    "recovered_function": "detachHat",
+    "original_bytecode_definition_offset": 36299,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4519,
+    "ffdec26_function": "_SafeStr_31",
+    "original_function": "]",
+    "recovered_function": "detachHat",
+    "original_bytecode_definition_offset": 36299,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4528,
+    "ffdec26_function": "_SafeStr_31",
+    "original_function": "]",
+    "recovered_function": "detachHat",
+    "original_bytecode_definition_offset": 36299,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4528,
+    "ffdec26_function": "_SafeStr_31",
+    "original_function": "]",
+    "recovered_function": "detachHat",
+    "original_bytecode_definition_offset": 36299,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4955,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4956,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4961,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4961,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4973,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4974,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4979,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4979,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4991,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4992,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4997,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 4997,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5006,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5007,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5008,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5026,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5026,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  },
+  {
+    "ffdec26_line": 5047,
+    "ffdec26_function": "_SafeStr_36",
+    "original_function": "9!",
+    "recovered_function": "updateCountdown",
+    "original_bytecode_definition_offset": 40070,
+    "differential_tested": true
+  }
+]

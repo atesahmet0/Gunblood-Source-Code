@@ -1,0 +1,268 @@
+Push false, 1644336667, 1644336982
+Equals
+Not
+If loc03d7
+loc0016:If loc0028
+ConstantPool "A", "B", "C", "D"
+loc0028:DefineFunction "-", 1, "ccar"  {
+Jump loc006b
+loc003b:GetVariable
+Add2
+GetVariable
+DefineLocal
+GetVariable
+StackSwap
+Push "A"
+GetVariable
+Push "B"
+GetMember
+SetMember
+GetVariable
+StackSwap
+Push "A"
+GetVariable
+Push "C"
+GetMember
+SetMember
+GetVariable
+StackSwap
+Push "D"
+GetVariable
+SetMember
+Jump loc008c
+loc006b:Push constant4, 1, constant5, constant6, "C", constant7, "B", constant7, "A", constant8, "D"
+Jump loc003b
+loc008c:DefineLocal
+loc008d:Push 10, constant4
+GetVariable
+StackSwap
+Greater
+If loc0117
+Jump loc00b1
+loc00a4:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Equals2
+Jump loc00c3
+loc00b1:Push constant4, "D", constant9, constant10, constant4
+Jump loc00a4
+loc00c3:If loc00f2
+Jump loc00df
+loc00cd:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 50
+SetMember
+Jump loc00ed
+loc00df:Push constant11, constant12, constant9
+Jump loc00cd
+loc00ed:Jump loc0108
+loc00f2:Push constant11, constant12, constant9
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 100
+SetMember
+loc0108:Push constant4, constant4
+GetVariable
+Increment
+SetVariable
+Jump loc008d
+loc0117:Push 1, "D"
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant14
+GetMember
+Push constant15
+CallMethod
+Pop
+Jump loc0284
+loc013b:GetVariable
+Push 1, constant13
+GetVariable
+Push constant16
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant17
+GetMember
+Push constant18
+GetMember
+Push constant19
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant17
+GetMember
+Push constant18
+GetMember
+Push constant20
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant21
+GetMember
+Push constant18
+GetMember
+Push constant19
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant21
+GetMember
+Push constant18
+GetMember
+Push constant20
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant22
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant23
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant24
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant25
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant26
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant27
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant28
+GetMember
+Push constant15
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant29
+GetMember
+Push constant15
+CallMethod
+Jump loc02e2
+loc0284:Push 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", 1, "D", "D"
+Jump loc013b
+loc02e2:Pop
+Push 1, "D"
+GetVariable
+StackSwap
+Push constant13
+GetVariable
+Push constant30
+GetMember
+Push constant15
+CallMethod
+Pop
+}
+Push constant31, constant6
+GetVariable
+StackSwap
+Push constant32
+SetMember
+Jump loc034b
+loc0316:GetVariable
+Push "_visible", 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+NewObject
+SetVariable
+SetVariable
+SetVariable
+GetVariable
+StackSwap
+Push "-"
+CallFunction
+Pop
+Stop
+Jump loc04d6
+loc034b:Push 1, "curchar", "cheatin", "", "[", 0f, "[\"", 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 0f, 19, "Array", "_visible", "each", "_visible", "4\"", " in"
+Jump loc0316
+loc03d7:ConstantPool "cbe", "_x", "_y", "ccar", "clock", "curchar", "_root", "charglow", "cb", ",#", "char", "_alpha", "cback", "?$", "hat", "gotoAndStop", "head", "arm1", "armin", "uparm", "lowarm", "arm2", "upbody", "lowbody", "upleg1", "lowleg1", "upleg2", "lowleg2", "foot1", "foot2", "holster", "_quality", "HIGH", "_visible", "-", "cheatin", "", "[", "[\"", "Array", "each", "4\"", " in"
+PushDuplicate
+Not
+Jump loc0016
+loc04d6:

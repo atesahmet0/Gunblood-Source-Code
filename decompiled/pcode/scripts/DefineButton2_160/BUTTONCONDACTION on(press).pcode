@@ -1,0 +1,27 @@
+Push false, 703524129, 703524402
+Equals
+Not
+If loc0064
+loc0016:If loc0028
+ConstantPool "A", "B", "C", "D"
+loc0028:Jump loc0048
+loc002d:GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+GotoFrame 0
+Jump loc0096
+loc0048:Push "case", "_parent", 100, 1, "setVolume", "rootsound", "_parent"
+Jump loc002d
+loc0064:ConstantPool "case", "_parent", "setVolume", "rootsound"
+PushDuplicate
+Not
+Jump loc0091
+loc0091:Jump loc0016
+loc0096:

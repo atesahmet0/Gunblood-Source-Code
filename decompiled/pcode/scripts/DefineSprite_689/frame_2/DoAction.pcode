@@ -1,0 +1,39 @@
+Push false, 1437320598, 1437320870
+Equals
+Not
+If loc00ac
+loc0016:If loc0038
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
+loc0038:Jump loc0046
+loc003d:GetVariable
+StackSwap
+Equals2
+Not
+Jump loc0055
+loc0046:Push 1, "<\""
+Jump loc003d
+loc0055:If loc0083
+Jump loc0068
+loc005f:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc007e
+loc0068:Push 1, 1, "gotoAndStop", "4%"
+Jump loc005f
+loc007e:Jump loc00cf
+loc0083:Push 2, 1, "gotoAndStop", "4%"
+GetVariable
+StackSwap
+CallMethod
+Pop
+Push 1894979969, 1894980151
+Equals
+Not
+If loc00cf
+loc00ac:ConstantPool "<\"", "gotoAndStop", "4%"
+PushDuplicate
+Not
+Jump loc00ca
+loc00ca:Jump loc0016
+loc00cf:

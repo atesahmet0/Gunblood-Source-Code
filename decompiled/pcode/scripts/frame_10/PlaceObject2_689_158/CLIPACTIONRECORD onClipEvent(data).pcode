@@ -1,0 +1,87 @@
+Push false, 697089538, 697089725
+Equals
+Not
+If loc0138
+loc0016:If loc0036
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"
+loc0036:Jump loc0044
+loc003b:GetVariable
+StackSwap
+Equals2
+Not
+Jump loc0053
+loc0044:Push 0f, "gjoin"
+Jump loc003b
+loc0053:If loc0092
+Jump loc0071
+loc005d:GetVariable
+StackSwap
+Push "gname"
+GetVariable
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Jump loc008d
+loc0071:Push 3, 1, "gotoAndStop", "true", "_root", "use", "_root"
+Jump loc005d
+loc008d:Jump loc017a
+loc0092:Push 1, "gjoin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc00d2
+Jump loc00b5
+loc00aa:GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Jump loc00cd
+loc00b5:Push 4, 1, "gotoAndStop", "true", "_root"
+Jump loc00aa
+loc00cd:Jump loc017a
+loc00d2:Push 2, "gjoin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc017a
+Jump loc00fd
+loc00ea:GetVariable
+StackSwap
+Push "gname"
+GetVariable
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Jump loc0119
+loc00fd:Push 5, 1, "gotoAndStop", "true", "_root", "use", "_root"
+Jump loc00ea
+loc0119:Pop
+Push 376031804, 376032032
+Equals
+Not
+If loc017a
+If loc017a
+Jump loc0169
+loc0138:ConstantPool "gjoin", "gname", "gotoAndStop", "true", "_root", "use"
+Jump loc0173
+loc0169:Unknown_5f
+Unknown_72
+Unknown_6f
+Unknown_6f
+Unknown_74
+Jump loc017a
+loc0173:PushDuplicate
+Not
+Jump loc0016
+loc017a:

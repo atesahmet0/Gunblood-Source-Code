@@ -1,0 +1,51 @@
+Push false, 341911469, 341911846
+Equals
+Not
+If loc00bd
+loc0016:If loc002c
+ConstantPool "A", "B", "C", "D", "E", "F"
+loc002c:Jump loc0061
+loc0031:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Jump loc011e
+loc0061:Push 1, 1, "gotoAndStop", "]#", "_parent", 2, 1, "gotoAndStop", "class", "_parent", 2, 1, "gotoAndStop", "musicbut", "_root", 0f, 1, "setVolume", "rootsound", "_root", "case", "_root", 0f, "start", 47, "allsounds", "_root"
+Jump loc0031
+loc00bd:ConstantPool "gotoAndStop", "]#", "_parent", "class", "musicbut", "_root", "setVolume", "rootsound", "case", "start", "allsounds"
+PushDuplicate
+Not
+Jump loc0016
+loc011e:

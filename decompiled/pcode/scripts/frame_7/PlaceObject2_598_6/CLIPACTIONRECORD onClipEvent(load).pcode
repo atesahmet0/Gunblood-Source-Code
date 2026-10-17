@@ -1,0 +1,7 @@
+ConstantPool "dynamic"
+Jump loc0018
+loc0012:SetVariable
+Jump loc0027
+loc0018:Push "dynamic", 0f
+Jump loc0012
+loc0027:

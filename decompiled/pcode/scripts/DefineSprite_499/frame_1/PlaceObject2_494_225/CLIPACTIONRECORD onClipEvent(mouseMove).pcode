@@ -1,0 +1,35 @@
+Push false, 1254245834, 1254246055
+Equals
+Not
+If loc008d
+loc0016:If loc0034
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
+loc0034:Jump loc0044
+loc0039:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0055
+loc0044:Push 1, "setmouse", "_parent"
+Jump loc0039
+loc0055:If loc00b4
+Jump loc0067
+loc005f:GetVariable
+StackSwap
+CallMethod
+Jump loc0078
+loc0067:Push 0f, "use ", "_parent"
+Jump loc005f
+loc0078:Pop
+Push 2096664180, 2096664237
+Equals
+Not
+If loc00b4
+loc008d:ConstantPool "setmouse", "_parent", "use "
+PushDuplicate
+Not
+Jump loc00af
+loc00af:Jump loc0016
+loc00b4:

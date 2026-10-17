@@ -1,0 +1,610 @@
+Push false, 1240309117, 1240309238
+Equals
+Not
+If loc0938
+loc0016:If loc0022
+ConstantPool "A"
+loc0022:Jump loc0034
+loc0027:GetVariable
+StackSwap
+CallMethod
+SetVariable
+GetVariable
+StackSwap
+Equals2
+Not
+Jump loc004b
+loc0034:Push "FASTFIRE", "cheatin", "cheatin", 0f, "toUpperCase", "cheatin"
+Jump loc0027
+loc004b:If loc00a4
+Jump loc007a
+loc0055:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc009f
+loc007a:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 1, "[\"", "_root"
+Jump loc0055
+loc009f:Jump loc0811
+loc00a4:Push "POINTER", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0108
+Jump loc00de
+loc00b9:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0103
+loc00de:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 2, "[\"", "_root"
+Jump loc00b9
+loc0103:Jump loc0811
+loc0108:Push "NOHIT", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc016c
+Jump loc0142
+loc011d:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0167
+loc0142:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 3, "[\"", "_root"
+Jump loc011d
+loc0167:Jump loc0811
+loc016c:Push "MOREAMMO", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc01d0
+Jump loc01a6
+loc0181:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc01cb
+loc01a6:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 4, "[\"", "_root"
+Jump loc0181
+loc01cb:Jump loc0811
+loc01d0:Push "LEVEL1", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc024a
+Jump loc0217
+loc01e5:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0245
+loc0217:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc01e5
+loc0245:Jump loc0811
+loc024a:Push "LEVEL2", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc02c4
+Jump loc0291
+loc025f:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc02bf
+loc0291:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc025f
+loc02bf:Jump loc0811
+loc02c4:Push "LEVEL3", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc033e
+Jump loc030b
+loc02d9:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 3
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0339
+loc030b:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc02d9
+loc0339:Jump loc0811
+loc033e:Push "LEVEL4", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc03b8
+Jump loc0385
+loc0353:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 4
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc03b3
+loc0385:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc0353
+loc03b3:Jump loc0811
+loc03b8:Push "LEVEL5", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0432
+Jump loc03ff
+loc03cd:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 5
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc042d
+loc03ff:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc03cd
+loc042d:Jump loc0811
+loc0432:Push "LEVEL6", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc04ac
+Jump loc0479
+loc0447:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 6
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc04a7
+loc0479:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc0447
+loc04a7:Jump loc0811
+loc04ac:Push "LEVEL7", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0526
+Jump loc04f3
+loc04c1:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 7
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 3
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0521
+loc04f3:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc04c1
+loc0521:Jump loc0811
+loc0526:Push "LEVEL8", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc05a0
+Jump loc056d
+loc053b:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 8
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 3
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc059b
+loc056d:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc053b
+loc059b:Jump loc0811
+loc05a0:Push "LEVEL9", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc061a
+Jump loc05e7
+loc05b5:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 9
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 4
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0615
+loc05e7:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc05b5
+loc0615:Jump loc0811
+loc061a:Push "BONUS1", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0694
+Jump loc0661
+loc062f:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 3
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc068f
+loc0661:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc062f
+loc068f:Jump loc0811
+loc0694:Push "BONUS2", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc070e
+Jump loc06db
+loc06a9:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 5
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0709
+loc06db:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc06a9
+loc0709:Jump loc0811
+loc070e:Push "BONUS3", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0788
+Jump loc0755
+loc0723:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 7
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc0783
+loc0755:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc0723
+loc0783:Jump loc0811
+loc0788:Push "BONUS4", "cheatin"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc0802
+Jump loc07cf
+loc079d:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 9
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 3
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc07fd
+loc07cf:Push "[", "_root", 0f, "start", 46, "allsounds", "_root", 6, "[\"", "_root", 5, "[\"", "_root"
+Jump loc079d
+loc07fd:Jump loc0811
+loc0802:Push "text", "chin"
+GetVariable
+StackSwap
+Push "INVALID"
+SetMember
+loc0811:Push 1, "chin"
+GetVariable
+StackSwap
+Push "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+Push 1697399693, 1697399922
+Equals
+Not
+If loc0a1d
+DefineFunction "%,1iA{invalid_utf8=222}AA{invalid_utf8=156}{invalid_utf8=198}{invalid_utf8=251}{invalid_utf8=231}I{invalid_utf8=190}{invalid_utf8=231}m\x1d{invalid_utf8=209}<{invalid_utf8=157}({invalid_utf8=153}{invalid_utf8=180}{invalid_utf8=159}{invalid_utf8=187}{invalid_utf8=165}{invalid_utf8=187}l{invalid_utf8=136}{invalid_utf8=209}", 29, "FASTFIRE" , "cheatin" , "toUpperCase" , "[" , "_root" , "start" , "allsounds" , "[\"" , "POINTER" , "NOHIT" , "MOREAMMO" , "LEVEL1" , "LEVEL2" , "LEVEL3" , "LEVEL4" , "LEVEL5" , "LEVEL6" , "LEVEL7" , "LEVEL8" , "LEVEL9" , "BONUS1" , "BONUS2" , "BONUS3" , "BONUS4" , "text" , "chin" , "INVALID" , "Selection" , "setFocus"  {
+Jump loc0a11
+loc0938:ConstantPool "FASTFIRE", "cheatin", "toUpperCase", "[", "_root", "start", "allsounds", "[\"", "POINTER", "NOHIT", "MOREAMMO", "LEVEL1", "LEVEL2", "LEVEL3", "LEVEL4", "LEVEL5", "LEVEL6", "LEVEL7", "LEVEL8", "LEVEL9", "BONUS1", "BONUS2", "BONUS3", "BONUS4", "text", "chin", "INVALID", "Selection", "setFocus"
+Jump loc0a16
+loc0a11:Jump loc0a1d
+loc0a16:PushDuplicate
+Not
+Jump loc0016
+loc0a1d:}

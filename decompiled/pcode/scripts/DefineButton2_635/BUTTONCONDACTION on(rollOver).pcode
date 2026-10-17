@@ -1,0 +1,24 @@
+Push false, 109720600, 109720700
+Equals
+Not
+If loc0056
+loc0016:If loc0026
+ConstantPool "A", "B", "C"
+loc0026:Jump loc0046
+loc002b:GetVariable
+StackSwap
+Push 105
+SetMember
+GetVariable
+StackSwap
+Push 105
+SetMember
+Jump loc007b
+loc0046:Push "_yscale", "set", "_xscale", "set"
+Jump loc002b
+loc0056:ConstantPool "_yscale", "set", "_xscale"
+PushDuplicate
+Not
+Jump loc0076
+loc0076:Jump loc0016
+loc007b:

@@ -1,0 +1,32 @@
+Push false, 1307588779, 1307588919
+Equals
+Not
+If loc0083
+loc0016:If loc0036
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"
+loc0036:Jump loc005f
+loc003b:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push 0f
+SetMember
+SetVariable
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc00bd
+loc005f:Push "newscores", "_root", "7#", "GLOBAL", "use", "_root", 0f, "start", 45, "allsounds", "_root"
+Jump loc003b
+loc0083:ConstantPool "newscores", "_root", "7#", "GLOBAL", "use", "start", "allsounds"
+PushDuplicate
+Not
+Jump loc0016
+loc00bd:

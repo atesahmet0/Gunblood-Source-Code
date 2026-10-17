@@ -1,0 +1,830 @@
+{
+  "input_sha256": "8a7b7f7b32d0f8e5ef29df403e189710029a9cbe7c520c75cfb43e1b65f14c06",
+  "functions": [
+    {
+      "original": ">%",
+      "readable": "initializeRound",
+      "original_line": 1,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "native",
+      "readable": "applyCharacterAppearance",
+      "original_line": 303,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "use ",
+      "readable": "updatePlayerAim",
+      "original_line": 366,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "ThrowBot",
+      "readable": "ThrowBot",
+      "original_line": 417,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "`",
+      "readable": "firePlayerShot",
+      "original_line": 437,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        ";%": "recoveredLocal1",
+        "const": "soundIndex"
+      }
+    },
+    {
+      "original": "Shoot2",
+      "readable": "Shoot2",
+      "original_line": 510,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        ";%": "recoveredLocal1",
+        "1%": "recoveredLocal2",
+        "const": "soundIndex"
+      }
+    },
+    {
+      "original": "%",
+      "readable": "updateBottleThrowAnimation",
+      "original_line": 580,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "@$",
+      "readable": "updateGameplay",
+      "original_line": 605,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "9%",
+      "readable": "drawAimGuide",
+      "original_line": 736,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": " else",
+      "readable": "applyFaceDownHeadHit",
+      "original_line": 779,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": ";$",
+      "readable": "applyHeadHitVariant1",
+      "original_line": 820,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "3\"",
+      "readable": "applyHeadHitVariant2",
+      "original_line": 854,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "return",
+      "readable": "applyHeadHitVariant3",
+      "original_line": 896,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          5,
+          ""
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "original_line": 953,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": " ",
+      "readable": "applyUpperBodyHitVariant1",
+      "original_line": 991,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "<#",
+      "readable": "applyUpperBodyHitVariant2",
+      "original_line": 1035,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "SubStomach1",
+      "readable": "SubStomach1",
+      "original_line": 1072,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "SubStomach2",
+      "readable": "SubStomach2",
+      "original_line": 1113,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "SubCrotch",
+      "readable": "SubCrotch",
+      "original_line": 1154,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "each ",
+      "readable": "applyLegHitVariant1",
+      "original_line": 1182,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "catch",
+      "readable": "applyLegHitVariant2",
+      "original_line": 1235,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "do",
+      "readable": "applyFootHit",
+      "original_line": 1276,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          0,
+          "btest"
+        ],
+        [
+          0,
+          "tx"
+        ],
+        [
+          0,
+          "ty"
+        ],
+        [
+          0,
+          "cside"
+        ],
+        [
+          0,
+          "bc"
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "!%",
+      "readable": "dispatchCharacterHit",
+      "original_line": 1308,
+      "parameters": "target,projectile,hitX,hitY,side,stepIndex",
+      "bytecode_parameter_registers": [
+        [
+          2,
+          ""
+        ],
+        [
+          5,
+          ""
+        ],
+        [
+          7,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          6,
+          ""
+        ],
+        [
+          8,
+          ""
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": " get",
+      "readable": "finishRound",
+      "original_line": 1514,
+      "parameters": "outcome",
+      "bytecode_parameter_registers": [
+        [
+          3,
+          ""
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "Celebrate",
+      "readable": "Celebrate",
+      "original_line": 1585,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "'#",
+      "readable": "updatePlayerProjectile",
+      "original_line": 1605,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        "4$": "recoveredLocal1"
+      }
+    },
+    {
+      "original": "var",
+      "readable": "updateOpponentProjectile",
+      "original_line": 1720,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "^#",
+      "readable": "updateDetachedHead",
+      "original_line": 1757,
+      "parameters": "target",
+      "bytecode_parameter_registers": [
+        [
+          1,
+          ""
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "@",
+      "readable": "updateOpponentHat",
+      "original_line": 1768,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": ">$",
+      "readable": "updatePlayerHat",
+      "original_line": 1779,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "]",
+      "readable": "detachHat",
+      "original_line": 1790,
+      "parameters": "target",
+      "bytecode_parameter_registers": [
+        [
+          1,
+          ""
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "BottleSet",
+      "readable": "BottleSet",
+      "original_line": 1810,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "+%",
+      "readable": "updateThrownBottle",
+      "original_line": 1830,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "]\"",
+      "readable": "updateLooseBottles",
+      "original_line": 1888,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "0",
+      "readable": "updateBirds",
+      "original_line": 1934,
+      "parameters": "",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    },
+    {
+      "original": "0%",
+      "readable": "updateCameraScale",
+      "original_line": 1967,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "9!",
+      "readable": "updateCountdown",
+      "original_line": 1995,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "!",
+      "readable": "updateOpponentAim",
+      "original_line": 2060,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "0\"",
+      "readable": "updateBloodParticles",
+      "original_line": 2100,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "#%",
+      "readable": "spawnBloodParticles",
+      "original_line": 2120,
+      "parameters": "x,y,verticalSpeed,horizontalDirection,particleCount",
+      "bytecode_parameter_registers": [
+        [
+          7,
+          ""
+        ],
+        [
+          5,
+          ""
+        ],
+        [
+          3,
+          ""
+        ],
+        [
+          4,
+          ""
+        ],
+        [
+          6,
+          ""
+        ]
+      ],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "!\"",
+      "readable": "spawnGroundBlood",
+      "original_line": 2141,
+      "parameters": "gbx, gby, gbs, gbr",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        "const": "soundIndex"
+      }
+    },
+    {
+      "original": "!!",
+      "readable": "spawnBulletImpact",
+      "original_line": 2157,
+      "parameters": "bbx, bby",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        "^\"": "recoveredLocal1",
+        "<%": "recoveredLocal2"
+      }
+    },
+    {
+      "original": " $",
+      "readable": "spawnSmoke",
+      "original_line": 2179,
+      "parameters": "sx, sy",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        "7!": "recoveredLocal1"
+      }
+    },
+    {
+      "original": "6%",
+      "readable": "spawnBodyChunks",
+      "original_line": 2192,
+      "parameters": "sx, sy, cside",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {
+        "@%": "recoveredLocal1",
+        "4#": "recoveredLocal2",
+        "7!": "recoveredLocal3"
+      }
+    },
+    {
+      "original": "+!",
+      "readable": "updateBodyChunks",
+      "original_line": 2216,
+      "parameters": "",
+      "bytecode_parameter_registers": [],
+      "local_identifier_map": {}
+    },
+    {
+      "original": "#$",
+      "readable": "spawnFeathers",
+      "original_line": 2239,
+      "parameters": "birdclip",
+      "bytecode_parameter_registers": null,
+      "local_identifier_map": {}
+    }
+  ],
+  "parameter_repairs": [
+    {
+      "function": " else",
+      "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+      "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": ";$",
+      "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+      "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": "3\"",
+      "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+      "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": "return",
+      "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+      "new": "_loc2_,_loc4_,tx,ty,_loc5_,bc",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": " set",
+      "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+      "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": "!%",
+      "old": "_loc2_, _loc3_, _loc4_, _loc5_, _loc6_, _loc7_",
+      "new": "_loc2_,_loc5_,_loc7_,_loc3_,_loc6_,_loc8_",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": " get",
+      "old": "_loc2_",
+      "new": "_loc3_",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    },
+    {
+      "function": "#%",
+      "old": "_loc1_, _loc2_, _loc3_, _loc4_, _loc5_",
+      "new": "_loc7_,_loc5_,_loc3_,_loc4_,_loc6_",
+      "source": "Original AVM1 DefineFunction2 parameter registers"
+    }
+  ],
+  "pcode_sha256": "378ec1a182cc53fbc808a4f746f31ae8bc040866a437d54e209216c1c9b47fa5"
+}

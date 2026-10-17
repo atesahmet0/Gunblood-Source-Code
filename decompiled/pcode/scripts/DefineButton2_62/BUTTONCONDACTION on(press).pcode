@@ -1,0 +1,32 @@
+Push false, 478545995, 478546266
+Equals
+Not
+If loc006b
+loc0016:If loc0022
+ConstantPool "A"
+loc0022:Jump loc003c
+loc0027:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc00b6
+loc003c:Push 0f, "removeMovieClip", "_parent", 4, 1, "gotoAndPlay", "_root", 0f, "start", 45, "allsounds", "_root"
+Jump loc0027
+loc006b:ConstantPool "removeMovieClip", "_parent", "gotoAndPlay", "_root", "start", "allsounds"
+PushDuplicate
+Not
+Jump loc00b1
+loc00b1:Jump loc0016
+loc00b6:

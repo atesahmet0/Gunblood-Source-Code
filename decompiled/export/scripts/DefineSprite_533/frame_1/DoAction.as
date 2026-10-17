@@ -1,0 +1,11 @@
+var _temp_7 = "?!";
+var _temp_6 = 10;
+var _temp_5 = 10;
+var _temp_4 = "gamelevel";
+var _temp_3 = "_root";
+var _temp_2 = "7%";
+var _temp_1 = "/9";
+var _temp_1 = "gamelevel";
+set(_temp_2,_root[_temp_1] + _temp_1);
+set(_temp_7,Math.round(_temp_6 + eval(_temp_3)[_temp_4] * _temp_5) + "%");
+stop();

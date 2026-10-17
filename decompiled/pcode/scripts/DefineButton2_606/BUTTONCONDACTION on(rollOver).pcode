@@ -1,0 +1,22 @@
+Push false, 947224518, 947224675
+Equals
+Not
+If loc0057
+loc0016:If loc0032
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I"
+loc0032:Jump loc0049
+loc0037:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 100
+SetMember
+Jump loc007b
+loc0049:Push "_alpha", "cback", "char8"
+Jump loc0037
+loc0057:ConstantPool "_alpha", "cback", "char8"
+PushDuplicate
+Not
+Jump loc0076
+loc0076:Jump loc0016
+loc007b:

@@ -1,0 +1,87 @@
+Push false, 1584130815, 1584131117
+Equals
+Not
+If loc014f
+loc0016:If loc0030
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H"
+loc0030:Jump loc00f4
+loc0035:GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f, "Array"
+NewObject
+SetMember
+GetVariable
+StackSwap
+Push 1, 99
+RandomNumber
+Add2
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f, "Array"
+NewObject
+SetMember
+GetVariable
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc01e4
+loc00f4:Push 0f, "removeMovieClip", "_parent", 4, 1, "gotoAndPlay", "_root", ";!", "_root", "null ", "_root", "totalscore", "_root", "`$", "_root", "throw", "_root", "3%", "_root", "9\"", "_root", "bonuslevel", "_root", "levelout", "_root", "hitstaken", "_root", "1\"", "_root", "<%", "_root", "null", "_root", ">#", "_root", "gamelevel", "_root"
+Jump loc0035
+loc014f:ConstantPool "Array", "removeMovieClip", "_parent", "gotoAndPlay", "_root", ";!", "null ", "totalscore", "`$", "throw", "3%", "9\"", "bonuslevel", "levelout", "hitstaken", "1\"", "<%", "null", ">#", "gamelevel"
+PushDuplicate
+Not
+Jump loc0016
+loc01e4:

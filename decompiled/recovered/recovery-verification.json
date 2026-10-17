@@ -1,0 +1,24 @@
+{
+  "original_sha1_verified": true,
+  "source_sha256": "35de0f93705ea0622996e632310d6629ce24a3a40d4eee770639d2a07a85b247",
+  "functions": 46,
+  "unresolved_pseudo_instructions": 0,
+  "escaped_identifiers": 0,
+  "synthetic_temporary_spills": 0,
+  "unbound_synthetic_registers": 0,
+  "parameter_signature_repairs": 8,
+  "original_pseudo_tokens": 73,
+  "original_affected_functions": 10,
+  "all_affected_functions_differential_tested": true,
+  "differential_cases_passed": 176,
+  "differential_functions_tested": 16,
+  "actionscript_compilation": "FFDec 26.3 accepted source; experimental compiler",
+  "recompiled_swf_sha256": "eac438bc7572d1df5aa7fe6d6a6b126c14ab675a2cfb2cf68d5e5bd7b6bcbb99",
+  "whole_game_runtime_verified": false,
+  "local_ruffle_runtime_smoke_test": {
+    "result": "tested_paths_pass",
+    "report": "runtime-validation/README.md",
+    "results": "runtime-validation/results.json",
+    "ruffle_version": "0.7.1"
+  }
+}

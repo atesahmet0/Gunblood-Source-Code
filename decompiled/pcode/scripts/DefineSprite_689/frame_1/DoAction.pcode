@@ -1,0 +1,41 @@
+Push false, 1471588880, 1471589210
+Equals
+Not
+If loc0098
+loc0016:If loc0024
+ConstantPool "A", "B"
+loc0024:Jump loc0036
+loc0029:SetVariable
+SetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0055
+loc0036:Push 0f, "use", "_root", "<\"", 1, "for ", 0f
+Jump loc0029
+loc0055:If loc0076
+Jump loc0065
+loc005f:SetVariable
+Jump loc0071
+loc0065:Push "7#", "GLOBAL"
+Jump loc005f
+loc0071:Jump loc0083
+loc0076:Push "7#", "use", "_root"
+GetVariable
+StackSwap
+GetMember
+SetVariable
+loc0083:Stop
+Push 1409814145, 1409814443
+Equals
+Not
+If loc00c5
+loc0098:ConstantPool "use", "_root", "<\"", "for ", "7#", "GLOBAL"
+PushDuplicate
+Not
+Jump loc00c0
+loc00c0:Jump loc0016
+loc00c5:

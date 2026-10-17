@@ -1,0 +1,161 @@
+Push false, 1495230969, 1495231019
+Equals
+Not
+If loc0294
+loc0016:If loc0034
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
+loc0034:DefineFunction "case ", 0 {
+Push "A", 12
+GetProperty
+Push "A", 5
+GetProperty
+Equals2
+PushDuplicate
+Not
+If loc006e
+Pop
+Push 100, "B"
+GetVariable
+StackSwap
+Less2
+Not
+loc006e:Not
+If loc007e
+GotoFrame 10
+Jump loc013d
+loc007e:Push "C", 0f, "D"
+CallFunction
+Push 1024
+Divide
+Push 1, "E"
+GetVariable
+Push "F"
+CallMethod
+SetVariable
+Jump loc011b
+loc00ab:CallFunction
+Push 1024
+Divide
+Push 1, "E"
+GetVariable
+Push "F"
+CallMethod
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Divide
+Push 100
+Multiply
+Push "B"
+GetVariable
+Add2
+Push 2
+Divide
+Push 1, "E"
+GetVariable
+Push "F"
+CallMethod
+SetVariable
+GetVariable
+Add2
+Push "G"
+Add2
+SetVariable
+GetVariable
+StackSwap
+Push 300, "H"
+GetVariable
+Push 100
+Divide
+Multiply
+Jump loc013c
+loc011b:Push "I", "J", constant10, constant11, "H", "H", constant12, "C", constant12, 0f, constant13
+Jump loc00ab
+loc013c:SetMember
+loc013d:Push 100, "B"
+GetVariable
+StackSwap
+Less2
+Not
+If loc0160
+Push "B", 1, "B"
+GetVariable
+StackSwap
+Add2
+SetVariable
+}
+loc0160:Push constant14
+GetVariable
+If loc0186
+Jump loc0176
+loc0170:GetVariable
+Jump loc0182
+loc0176:Push "http://www.gunblood.com/gbads1.swf", "each"
+Jump loc0170
+loc0182:GetURL2 false, true, 0
+loc0186:Push "_quality", "_root"
+GetVariable
+StackSwap
+Push "HIGH"
+SetMember
+Jump loc01c7
+loc019a:SetVariable
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+NewObject
+SetVariable
+SetVariable
+SetVariable
+GetVariable
+Not
+Jump loc01f8
+loc01c7:Push "gin", "break", "HIGH", "case", 1, "rootsound", 0f, "Sound", "_visible", "each", "_visible", "4\"", "_visible", " in", "curchar", 2
+Jump loc019a
+loc01f8:If loc021a
+Jump loc0209
+loc0202:GetVariable
+SetVariable
+Jump loc0215
+loc0209:Push "use", "gin"
+Jump loc0202
+loc0215:Jump loc0225
+loc021a:Push "use", 0f
+SetVariable
+loc0225:Push "-%", 0f
+SetVariable
+Jump loc0268
+loc0235:SetVariable
+SetVariable
+GetURL "FSCommand:showmenu", "false"
+NewObject
+DefineLocal
+GetVariable
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "8%"
+GetVariable
+SetMember
+Stop
+Jump loc039f
+loc0268:Push "menu", "_root", 0f, "hideBuiltInItems", "8%", "8%", 0f, "ContextMenu", "3", 1, "pisound", 0f
+Jump loc0235
+loc0294:ConstantPool "", "3", "import", "getBytesLoaded", "Math", "round", "%", ",!", "_width", "in ", "+#", "LOADED ", "^!", "getBytesTotal", "5%", "http://www.gunblood.com/gbads1.swf", "each", "_quality", "_root", "HIGH", "gin", "break", "case", "rootsound", "Sound", "_visible", "4\"", " in", "curchar", "use", "-%", "8%", "menu", "hideBuiltInItems", "ContextMenu", "pisound"
+PushDuplicate
+Not
+Jump loc039a
+loc039a:Jump loc0016
+loc039f:

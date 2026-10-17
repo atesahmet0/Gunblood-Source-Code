@@ -1,0 +1,36 @@
+Push false, 1370076184, 1370076298
+Equals
+Not
+If loc00bc
+loc0016:If loc0028
+ConstantPool "A", "B", "C", "D"
+loc0028:Jump loc0038
+loc002d:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0049
+loc0038:Push 1, "gameon", "_parent"
+Jump loc002d
+loc0049:If loc00d9
+Jump loc0062
+loc0053:GetVariable
+StackSwap
+Push 0f
+Jump loc006e
+loc0062:Push "\"", "_parent"
+Jump loc0053
+loc006e:SetMember
+Push 1338265461, 1338265766
+Equals
+Not
+If loc00d9
+DefineFunction "{invalid_utf8=153}{invalid_utf8=233}M{invalid_utf8=166}{invalid_utf8=254}{invalid_utf8=248}I[\x1b1{invalid_utf8=182}{invalid_utf8=243}{invalid_utf8=226}{invalid_utf8=169}{invalid_utf8=174}\x0317{invalid_utf8=173}co{invalid_utf8=137}{invalid_utf8=167}\n4{invalid_utf8=136}\x13", 3, "gameon" , "_parent" , "\""  {
+Jump loc00d9
+loc00bc:ConstantPool "gameon", "_parent", "\""
+PushDuplicate
+Not
+Jump loc0016
+loc00d9:}

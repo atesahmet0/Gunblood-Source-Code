@@ -1,0 +1,36 @@
+Push false, 1541374708, 1541375038
+Equals
+Not
+If loc007b
+loc0016:If loc002c
+ConstantPool "A", "B", "C", "D", "E", "F"
+loc002c:Jump loc005b
+loc0031:GetVariable
+StackSwap
+GetMember
+StackSwap
+Add2
+SetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Multiply
+Add2
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+Push "%"
+Add2
+SetVariable
+Stop
+Jump loc00b2
+loc005b:Push "?!", 10, 10, "gamelevel", "_root", "7%", "/9", "gamelevel", "_root"
+Jump loc0031
+loc007b:ConstantPool "Math", "round", "%", "?!", "gamelevel", "_root", "7%", "/9"
+PushDuplicate
+Not
+Jump loc00ad
+loc00ad:Jump loc0016
+loc00b2:

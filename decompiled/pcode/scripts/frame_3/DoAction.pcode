@@ -1,0 +1,69 @@
+Push false, 1776570489, 1776570576
+Equals
+Not
+If loc0114
+loc0016:If loc002a
+ConstantPool "A", "B", "C", "D", "E"
+loc002a:Jump loc0058
+loc002f:GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Equals2
+Jump loc0073
+loc0058:Push 0f, "use", "_visible", "each", "_visible", "4\"", "_visible", " in"
+Jump loc002f
+loc0073:If loc00af
+Jump loc0094
+loc007d:GetVariable
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "use"
+GetMember
+Jump loc00ae
+loc0094:Push "7#", ",\"", 2, 1, "gotoAndStop", ",\""
+Jump loc007d
+loc00ae:SetMember
+loc00af:Push 1, "["
+GetVariable
+StackSwap
+Equals2
+Not
+If loc00e6
+Jump loc00cf
+loc00c7:GetVariable
+StackSwap
+CallMethod
+Jump loc00e5
+loc00cf:Push 3, 1, "gotoAndStop", ",\""
+Jump loc00c7
+loc00e5:Pop
+loc00e6:Stop
+Push 459156872, 459157009
+Equals
+Not
+If loc015d
+Push "\n", "_visible", "4\""
+Jump loc0151
+loc0114:ConstantPool "use", "_visible", "each", "4\"", " in", "_root", "7#", ",\"", "gotoAndStop", "["
+Jump loc0156
+loc0151:Jump loc015d
+loc0156:PushDuplicate
+Not
+Jump loc0016
+loc015d:

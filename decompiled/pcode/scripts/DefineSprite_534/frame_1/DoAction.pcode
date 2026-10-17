@@ -1,0 +1,33 @@
+Push false, 2026590037, 2026590357
+Equals
+Not
+If loc0075
+loc0016:If loc0022
+ConstantPool "A"
+loc0022:Jump loc0032
+loc0027:GetVariable
+StackSwap
+GetMember
+StackSwap
+Greater
+Not
+Jump loc0043
+loc0032:Push 1, "gamelevel", "_root"
+Jump loc0027
+loc0043:If loc009c
+GotoFrame 10
+Play
+Push 117146772, 117146925
+Equals
+Not
+If loc009c
+GoToLabel "-{invalid_utf8=174}{invalid_utf8=165}\x17{invalid_utf8=228}{invalid_utf8=200}{invalid_utf8=40}\x17{invalid_utf8=136}\x12"
+Jump loc008f
+loc0075:ConstantPool "gamelevel", "_root"
+Jump loc0095
+loc008f:Unknown_6c
+Jump loc009c
+loc0095:PushDuplicate
+Not
+Jump loc0016
+loc009c:

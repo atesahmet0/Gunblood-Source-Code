@@ -1,0 +1,45 @@
+Push false, 460287534, 460287831
+Equals
+Not
+If loc00a1
+loc0016:If loc0022
+ConstantPool "A"
+loc0022:Jump loc0076
+loc0027:GetVariable
+StackSwap
+Push ",", 1, "ascores"
+GetVariable
+Push "split"
+CallMethod
+SetMember
+GetVariable
+StackSwap
+Push ",", 1, "anames"
+GetVariable
+Push "split"
+CallMethod
+SetMember
+GetVariable
+StackSwap
+Push ",", 1, "atrophies"
+GetVariable
+Push "split"
+CallMethod
+SetMember
+GetVariable
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc00f3
+loc0076:Push 5, 1, "gotoAndStop", "_root", 0f, "true ", "_parent", "atrophies", "_parent", "anames", "_parent", "ascores", "_parent"
+Jump loc0027
+loc00a1:ConstantPool ",", "ascores", "split", "anames", "atrophies", "gotoAndStop", "_root", "true ", "_parent"
+PushDuplicate
+Not
+Jump loc00ee
+loc00ee:Jump loc0016
+loc00f3:

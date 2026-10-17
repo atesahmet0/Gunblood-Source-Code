@@ -1,0 +1,41 @@
+Push false, 1121876346, 1121876432
+Equals
+Not
+If loc008d
+loc0016:If loc0026
+ConstantPool "A", "B", "C"
+loc0026:Jump loc0035
+loc002b:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Jump loc0046
+loc0035:Push 3, "curchar", "_root"
+Jump loc002b
+loc0046:If loc00c6
+Jump loc0061
+loc0050:GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 50
+Jump loc006f
+loc0061:Push "_alpha", "cback", "char3"
+Jump loc0050
+loc006f:SetMember
+Push 1518913327, 1518913535
+Equals
+Not
+If loc00c6
+WaitForFrame2 10
+Jump loc00b8
+loc008d:ConstantPool "curchar", "_root", "_alpha", "cback", "char3"
+Jump loc00bf
+loc00b8:StringGreater
+BitOr
+Jump loc00c6
+loc00bf:PushDuplicate
+Not
+Jump loc0016
+loc00c6:

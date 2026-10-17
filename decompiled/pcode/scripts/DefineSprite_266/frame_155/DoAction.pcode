@@ -1,0 +1,24 @@
+Push false, 158749262, 158749538
+Equals
+Not
+If loc0057
+loc0016:If loc0030
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H"
+loc0030:Jump loc0042
+loc0035:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Jump loc008b
+loc0042:Push 0f, "BottleSet", "mainclip", "scaleclip", "_root"
+Jump loc0035
+loc0057:ConstantPool "BottleSet", "mainclip", "scaleclip", "_root"
+PushDuplicate
+Not
+Jump loc0086
+loc0086:Jump loc0016
+loc008b:

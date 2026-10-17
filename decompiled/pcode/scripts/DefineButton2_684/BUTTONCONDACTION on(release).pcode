@@ -1,0 +1,42 @@
+Push false, 848281633, 848281685
+Equals
+Not
+If loc00a4
+loc0016:If loc0038
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
+loc0038:Jump loc0073
+loc003d:GetVariable
+StackSwap
+CallMethod
+SetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+RandomNumber
+Add2
+Push "&g="
+Add2
+Push "7#"
+GetVariable
+Add2
+Push "_root"
+GetVariable
+Push "true"
+GetMember
+GetURL2 true, true, 0
+SetVariable
+GotoFrame 1
+Jump loc0116
+loc0073:Push "<\"", 1, "http://www.gunblood.com/newgungroup.php?rannum=", 100000, 0f, "start", 45, "allsounds", "_root", "7#", 0f, "toUpperCase", "7#"
+Jump loc003d
+loc00a4:ConstantPool "&g=", "7#", "_root", "true", "<\"", "http://www.gunblood.com/newgungroup.php?rannum=", "start", "allsounds", "toUpperCase"
+PushDuplicate
+Not
+Jump loc0111
+loc0111:Jump loc0016
+loc0116:

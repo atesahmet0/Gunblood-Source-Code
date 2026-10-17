@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Gunblood · local Ruffle validation</title>
+<style>body{font:14px system-ui;background:#20231f;color:#eee;margin:20px}button,a{font:inherit;margin-right:12px}#player{width:720px;height:425px;max-width:100%}ruffle-player{width:720px;height:425px}pre{white-space:pre-wrap;font-size:11px;max-height:170px;overflow:auto}#status{margin:10px 0}a{color:#c9eab0}</style>
+<h2>Gunblood · local Ruffle validation</h2>
+<nav><a href="?build=original">Archived original</a><a href="?build=rebuilt">Rebuilt gameplay</a><button onclick="location.reload()">Restart</button><button id="pause">Pause</button></nav>
+<div id="status">Loading…</div><div id="player"></div><details open><summary>Runtime messages</summary><pre id="log"></pre></details>
+<script>
+window.RufflePlayer={config:{autoplay:'on',unmuteOverlay:'hidden',splashScreen:false,allowScriptAccess:false,logLevel:'warn',openUrlMode:'deny',showSwfDownload:true}};
+const out=document.querySelector('#log');
+function log(...args){out.textContent+=args.map(String).join(' ')+'\n';out.scrollTop=out.scrollHeight;}
+for(const level of ['warn','error']){const original=console[level].bind(console);console[level]=(...args)=>{log(level.toUpperCase(),...args);original(...args);};}
+window.addEventListener('error',e=>log('ERROR',e.message));window.addEventListener('unhandledrejection',e=>log('REJECTION',e.reason));
+</script><script src="/tools/vendor/ruffle/ruffle.js"></script><script>
+(async()=>{const build=new URLSearchParams(location.search).get('build')==='original'?'original':'rebuilt';
+const url=build==='original'?'/archive/gunblood.swf':'/decompiled/recovered/validation/recompiled-check.swf';
+const player=window.RufflePlayer.newest().createPlayer();document.querySelector('#player').append(player);
+let paused=false;document.querySelector('#pause').onclick=()=>{paused=!paused;if(paused)player.pause();else player.play();document.querySelector('#pause').textContent=paused?'Resume':'Pause';};
+try{await player.load({url,backgroundColor:'#ffffff'});document.querySelector('#status').textContent=build+' · '+url;player.traceObserver=message=>log('TRACE',message);}catch(e){log('LOAD FAILED',e);}
+})();
+</script></html>

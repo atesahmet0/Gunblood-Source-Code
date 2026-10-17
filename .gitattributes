@@ -1,0 +1,2 @@
+# Preserve extraction bytes, including original line endings, for recorded hashes.
+* -text

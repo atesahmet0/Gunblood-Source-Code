@@ -1,0 +1,74 @@
+Push false, 509669785, 509669864
+Equals
+Not
+If loc0100
+loc0016:If loc0036
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"
+loc0036:Jump loc0046
+loc003b:GetVariable
+StackSwap
+GetMember
+StackSwap
+Less2
+Not
+Jump loc0057
+loc0046:Push 100, "_y", "_parent"
+Jump loc003b
+loc0057:If loc00d3
+Jump loc00ba
+loc0061:GetVariable
+StackSwap
+Push "_parent"
+GetVariable
+Push "_y"
+GetMember
+Push "_parent"
+GetVariable
+Push "yvel"
+GetMember
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "_parent"
+GetVariable
+Push "_x"
+GetMember
+Push "_parent"
+GetVariable
+Push "xvel"
+GetMember
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "_parent"
+GetVariable
+Push "xvel"
+GetMember
+Push 1.1
+Divide
+SetMember
+Jump loc00ce
+loc00ba:Push "xvel", "_parent", "_x", "_parent", "_y", "_parent"
+Jump loc0061
+loc00ce:Jump loc0139
+loc00d3:Push 0f, "stop", "this"
+GetVariable
+StackSwap
+CallMethod
+Pop
+Push 1670942933, 1670943120
+Equals
+Not
+If loc0139
+GetURL2 true, true, 1
+Jump loc012c
+loc0100:ConstantPool "_y", "_parent", "yvel", "_x", "xvel", "stop", "this"
+Jump loc0132
+loc012c:Unknown_6c
+Jump loc0139
+loc0132:PushDuplicate
+Not
+Jump loc0016
+loc0139:

@@ -1,0 +1,51 @@
+Functions: 46 parameter repairs: 8
+[
+  {
+    "function": " else",
+    "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+    "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": ";$",
+    "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+    "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": "3\"",
+    "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+    "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": "return",
+    "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+    "new": "_loc2_,_loc4_,tx,ty,_loc5_,bc",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": " set",
+    "old": "_loc2_, _loc3_, tx, ty, _loc6_, bc",
+    "new": "_loc2_,_loc3_,tx,ty,_loc4_,bc",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": "!%",
+    "old": "_loc2_, _loc3_, _loc4_, _loc5_, _loc6_, _loc7_",
+    "new": "_loc2_,_loc5_,_loc7_,_loc3_,_loc6_,_loc8_",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": " get",
+    "old": "_loc2_",
+    "new": "_loc3_",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  },
+  {
+    "function": "#%",
+    "old": "_loc1_, _loc2_, _loc3_, _loc4_, _loc5_",
+    "new": "_loc7_,_loc5_,_loc3_,_loc4_,_loc6_",
+    "source": "Original AVM1 DefineFunction2 parameter registers"
+  }
+]

@@ -1,0 +1,6302 @@
+Push false, 2007471531, 2007471876
+Equals
+Not
+If loc51cb
+loc0016:If loc003a
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
+loc003a:DefineFunction2 "%$", 3, 12, false, true, true, false, true, false, true, false, false, 10, "", 4, "", 11, "" {
+Push register4, 0f
+Greater
+PushDuplicate
+Not
+If loc0068
+Pop
+Push register4, register11
+Equals2
+loc0068:PushDuplicate
+Not
+If loc0079
+Pop
+Push register1, "A"
+GetMember
+Not
+loc0079:PushDuplicate
+Not
+If loc008c
+Pop
+Push register4, register1, "B"
+GetMember
+Equals2
+loc008c:Not
+If loc01b9
+Jump loc00ec
+loc0097:SetVariable
+GetMember
+StackSwap
+GetVariable
+Multiply
+StoreRegister 9
+Pop
+GetMember
+StackSwap
+GetVariable
+Multiply
+StoreRegister 3
+Pop
+GetMember
+StackSwap
+GetVariable
+Multiply
+StoreRegister 2
+Pop
+GetMember
+StackSwap
+GetVariable
+Multiply
+StoreRegister 5
+Pop
+GetMember
+StackSwap
+GetVariable
+Multiply
+StoreRegister 6
+Pop
+GetMember
+StackSwap
+Push "C"
+GetMember
+Add2
+Push "D"
+GetVariable
+Multiply
+StoreRegister 7
+Pop
+GetVariable
+StackSwap
+Multiply
+Push register4
+Multiply
+StoreRegister 8
+Jump loc0126
+loc00ec:Push 81, "D", register1, register1, "E", "D", register1, "F", "D", register1, "G", "D", register1, "H", "D", register1, "I", "D", register1, "J", "K", 0f
+Jump loc0097
+loc0126:Pop
+Push "L", 100000
+RandomNumber
+Add2
+Push "M"
+Add2
+Push register10
+Add2
+Push constant13
+Add2
+Push register9
+Add2
+Push constant14
+Add2
+Push register3
+Add2
+Push constant15
+Add2
+Push register5
+Add2
+Push constant16
+Add2
+Push register6
+Add2
+Push constant17
+Add2
+Push register7
+Add2
+Push constant18
+Add2
+Push register2
+Add2
+Push constant19
+Add2
+Push register8
+Add2
+Push constant20
+Add2
+Push register1, constant21
+GetMember
+Add2
+Push constant22
+Add2
+Push "D"
+GetVariable
+Add2
+Push constant23
+GetVariable
+GetURL2 true, true, 0
+}
+loc01b9:DefineFunction ">!", 0 {
+Jump loc01c8
+loc01c8:Push constant24, 0f
+Jump loc01d7
+loc01d7:SetVariable
+loc01d8:Push constant25, constant24
+GetVariable
+StackSwap
+GetVariable
+Push constant26
+GetMember
+Less2
+Not
+If loc0234
+Jump loc0215
+loc01f4:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push constant27, 0f
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push constant28
+CallMethod
+Pop
+GetVariable
+Increment
+Jump loc022e
+loc0215:Push constant24, constant24, 0f, constant24, constant25, constant24, constant25
+Jump loc01f4
+loc022e:SetVariable
+Jump loc01d8
+}
+loc0234:Push constant29, constant30
+GetVariable
+StackSwap
+Push constant31
+SetMember
+Jump loc0281
+loc0248:GetVariable
+Push "_visible", 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+SetVariable
+SetVariable
+RandomNumber
+Add2
+Push "+"
+GetVariable
+GetURL2 true, true, 0
+GetVariable
+StackSwap
+Equals2
+Not
+Jump loc02af
+loc0281:Push 0f, "5%", "http://www.gunblood.com/getguncode.php?rannum=", 100000, "newscores", 1, "5%", 0f, "_visible", "each", "_visible", "4\"", " in"
+Jump loc0248
+loc02af:If loc02e0
+Jump loc02c8
+loc02b9:GetVariable
+GetURL2 false, true, 0
+GetVariable
+GetURL2 false, true, 0
+Jump loc02df
+loc02c8:Push "5%", 1, "http://www.gunblood.com/gbads3.swf", "4\"", "http://www.gunblood.com/gbads2.swf", " in"
+Jump loc02b9
+loc02df:SetVariable
+loc02e0:Push "soundinit"
+GetVariable
+If loc51ac
+Jump loc03df
+loc02f0:GetVariable
+StackSwap
+CallMethod
+Pop
+SetVariable
+NewObject
+SetVariable
+NewObject
+SetVariable
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc0499
+loc03df:Push "blood_splat_03.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "birdfall2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "birdfall1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 0f, "rootsound", 0f, "Sound", "allsounds", 0f, "Array", "case", 1, 749, "soundclip2", 2, "createEmptyMovieClip", "this"
+Jump loc02f0
+loc0499:Pop
+Jump loc059e
+loc049f:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc064d
+loc059e:Push 50, 1, "soundcount", "allsounds", "blooddrop1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "blood_splat_05.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "blood_splat_04.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc049f
+loc064d:Pop
+Jump loc074b
+loc0653:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc07f5
+loc074b:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "blooddrop3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "blooddrop2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc0653
+loc07f5:SetVariable
+Jump loc090c
+loc07fb:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc09b4
+loc090c:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall6.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall5.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc07fb
+loc09b4:Pop
+Jump loc0ab2
+loc09ba:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+Jump loc0b59
+loc0ab2:Push "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall9.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall8.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyfall7.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc09ba
+loc0b59:SetVariable
+Jump loc0c68
+loc0b5f:GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc0d0d
+loc0c68:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds"
+Jump loc0b5f
+loc0d0d:SetMember
+Jump loc0e12
+loc0d13:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc0ebe
+loc0e12:Push "bodyhit7.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit6.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit5.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit4.wav", 1, "soundcount", "allsounds"
+Jump loc0d13
+loc0ebe:Pop
+Jump loc0fc3
+loc0ec4:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc1072
+loc0fc3:Push 50, 1, "soundcount", "allsounds", "bottle_smash_01.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit9.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bodyhit8.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc0ec4
+loc1072:Pop
+Jump loc1170
+loc1078:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc121a
+loc1170:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bottle_smash_04.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bottle_smash_03.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bottle_smash_02.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc1078
+loc121a:SetVariable
+Jump loc1331
+loc1220:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc13d9
+loc1331:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc1220
+loc13d9:Pop
+Jump loc14d7
+loc13df:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+Jump loc157e
+loc14d7:Push "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat6.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat5.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "brainsplat4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc13df
+loc157e:SetVariable
+Jump loc168d
+loc1584:GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc1732
+loc168d:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz07.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz06.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz02.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds"
+Jump loc1584
+loc1732:SetMember
+Jump loc1837
+loc1738:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc18e3
+loc1837:Push "bulletwhiz12.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz10.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz09.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz08.wav", 1, "soundcount", "allsounds"
+Jump loc1738
+loc18e3:Pop
+Jump loc19e8
+loc18e9:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc1a97
+loc19e8:Push 50, 1, "soundcount", "allsounds", "bulletwhiz24.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz23.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz16.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc18e9
+loc1a97:Pop
+Jump loc1b95
+loc1a9d:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc1c3f
+loc1b95:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "button2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "button1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "bulletwhiz25.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc1a9d
+loc1c3f:SetVariable
+Jump loc1d56
+loc1c45:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc1dfe
+loc1d56:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c1-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c1-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "button3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc1c45
+loc1dfe:Pop
+Jump loc1f11
+loc1e04:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc1fbc
+loc1f11:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c2-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c1-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c1-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc1e04
+loc1fbc:SetMember
+Jump loc20c1
+loc1fc2:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc216d
+loc20c1:Push "c3-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c2-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c2-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c2-2.wav", 1, "soundcount", "allsounds"
+Jump loc1fc2
+loc216d:Pop
+Jump loc2272
+loc2173:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc2321
+loc2272:Push 50, 1, "soundcount", "allsounds", "c4-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c3-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c3-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc2173
+loc2321:Pop
+Jump loc243c
+loc2327:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc24ed
+loc243c:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c4-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c4-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c4-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc2327
+loc24ed:Pop
+Jump loc2600
+loc24f3:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc26ab
+loc2600:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c5-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c5-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c5-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc24f3
+loc26ab:SetMember
+Jump loc27b0
+loc26b1:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc285c
+loc27b0:Push "c6-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c6-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c6-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c6-1.wav", 1, "soundcount", "allsounds"
+Jump loc26b1
+loc285c:Pop
+Jump loc2961
+loc2862:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc2a10
+loc2961:Push 50, 1, "soundcount", "allsounds", "c7-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c7-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 60, 1, "soundcount", "allsounds", "c7-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 35, 1, "soundcount", "allsounds"
+Jump loc2862
+loc2a10:Pop
+Jump loc2b2b
+loc2a16:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc2bdc
+loc2b2b:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c8-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c8-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c8-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc2a16
+loc2bdc:Pop
+Jump loc2cef
+loc2be2:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc2d9a
+loc2cef:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c9-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c9-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c9-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc2be2
+loc2d9a:SetMember
+Jump loc2e9f
+loc2da0:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc2f4b
+loc2e9f:Push "c10-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c10-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c10-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c9-4.wav", 1, "soundcount", "allsounds"
+Jump loc2da0
+loc2f4b:Pop
+Jump loc3050
+loc2f51:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc30ff
+loc3050:Push 50, 1, "soundcount", "allsounds", "c11-2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c11-1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c10-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc2f51
+loc30ff:Pop
+Jump loc31fd
+loc3105:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc32a7
+loc31fd:Push "soundcount", 1, "soundcount", 45, 1, "soundcount", "allsounds", "chamberspin1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c11-4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "c11-3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc3105
+loc32a7:SetVariable
+Jump loc33be
+loc32ad:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc3466
+loc33be:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "fallback3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "fallback2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "fallback1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc32ad
+loc3466:Pop
+Jump loc3564
+loc346c:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+Jump loc360b
+loc3564:Push "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "fallback4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc346c
+loc360b:SetVariable
+Jump loc371a
+loc3611:GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc37bf
+loc371a:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep5.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds"
+Jump loc3611
+loc37bf:SetMember
+Jump loc38c4
+loc37c5:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc3970
+loc38c4:Push "gunshot3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "gunshot2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "gunshot1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "footstep6.wav", 1, "soundcount", "allsounds"
+Jump loc37c5
+loc3970:Pop
+Jump loc3a75
+loc3976:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc3b24
+loc3a75:Push 50, 1, "soundcount", "allsounds", "gunshot6.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "gunshot12.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "gunshot4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc3976
+loc3b24:Pop
+Jump loc3c22
+loc3b2a:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc3ccc
+loc3c22:Push "soundcount", 1, "soundcount", 35, 1, "soundcount", "allsounds", "gunshot9.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 35, 1, "soundcount", "allsounds", "gunshot8.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 35, 1, "soundcount", "allsounds", "gunshot7.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc3b2a
+loc3ccc:SetVariable
+Jump loc3de3
+loc3cd2:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc3e8b
+loc3de3:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headfly2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headfly1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "gunshot11.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc3cd2
+loc3e8b:Pop
+Jump loc3f89
+loc3e91:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+Jump loc4030
+loc3f89:Push "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headhit3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headhit2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headhit1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc3e91
+loc4030:SetVariable
+Jump loc413f
+loc4036:GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc41e4
+loc413f:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headpop3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headpop2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headpop1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds"
+Jump loc4036
+loc41e4:SetMember
+Jump loc42e9
+loc41ea:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc4395
+loc42e9:Push "heartbeat1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "heart_rate_monitor.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headpop5.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "headpop4.wav", 1, "soundcount", "allsounds"
+Jump loc41ea
+loc4395:Pop
+Jump loc449a
+loc439b:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc4549
+loc449a:Push 50, 1, "soundcount", "allsounds", "knifethrow2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "knifethrow1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "kneel.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc439b
+loc4549:Pop
+Jump loc4647
+loc454f:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc46f1
+loc4647:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "nicechime.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "knifethrow4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "knifethrow3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc454f
+loc46f1:SetVariable
+Jump loc4808
+loc46f7:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Jump loc48b0
+loc4808:Push 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "ricochet1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "revolver_cock_08.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "noammo.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc46f7
+loc48b0:Pop
+Jump loc49ae
+loc48b6:GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+Jump loc4a55
+loc49ae:Push "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "shotbehind1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "ricochet3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "ricochet2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount"
+Jump loc48b6
+loc4a55:SetVariable
+Jump loc4b64
+loc4a5b:GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+Jump loc4c09
+loc4b64:Push "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "duckquack1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "carnival_win_ding_02.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "shotbehind2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds"
+Jump loc4a5b
+loc4c09:SetMember
+Jump loc4d0e
+loc4c0f:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Jump loc4dba
+loc4d0e:Push "knifehit1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "duckquack4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "duckquack3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "duckquack2.wav", 1, "soundcount", "allsounds"
+Jump loc4c0f
+loc4dba:Pop
+Jump loc4ebf
+loc4dc0:GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Jump loc4f6e
+loc4ebf:Push 50, 1, "soundcount", "allsounds", "knifehit4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "knifehit3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "knifehit2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds"
+Jump loc4dc0
+loc4f6e:Pop
+Jump loc506c
+loc4f74:GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+SetVariable
+GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc5116
+loc506c:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "wingflap3.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "wingflap2.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "wingflap1.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount", "soundcount", 1, "soundcount"
+Jump loc4f74
+loc5116:SetVariable
+Jump loc5170
+loc511c:GetVariable
+Add2
+Push "sound", "soundcount"
+GetVariable
+Add2
+Push 2, "this"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+Pop
+GetVariable
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+GetVariable
+Push "soundclip"
+GetVariable
+Push 1, "Sound"
+NewObject
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "attachSound"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push "setVolume"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Add2
+Jump loc51ab
+loc5170:Push "soundcount", 1, "soundcount", 50, 1, "soundcount", "allsounds", "wingflap4.wav", 1, "soundcount", "allsounds", "soundcount", "allsounds", "soundclip", "sound", "soundcount", 240, "soundcount"
+Jump loc511c
+loc51ab:SetVariable
+loc51ac:Push "soundinit", 1
+SetVariable
+Push 598468130, 598468249
+Equals
+Not
+If loc5b80
+loc51cb:ConstantPool "[", "totalscore", "bonuslevel", "newcode", "gamelevel", "`$", "throw", "hitstaken", "3%", ">#", "hiscore", "http://www.gunblood.com/gunscorein.php?rannum=", "&username=", "&s=", "&i=", "&c=", "&e=", "&r=", "&a=", "&g=", "&h=", "use", "&n=", "+", "package", "allsounds", "length", "position", "stop", "_quality", "_root", "HIGH", "_visible", "5%", "http://www.gunblood.com/getguncode.php?rannum=", "newscores", "each", "4\"", " in", "http://www.gunblood.com/gbads3.swf", "http://www.gunblood.com/gbads2.swf", "soundinit", "sound", "soundcount", "this", "createEmptyMovieClip", "soundclip", "Sound", "attachSound", "setVolume", "blood_splat_03.wav", "birdfall2.wav", "birdfall1.wav", "rootsound", "Array", "case", "soundclip2", "blooddrop1.wav", "blood_splat_05.wav", "blood_splat_04.wav", "bodyfall3.wav", "blooddrop3.wav", "blooddrop2.wav", "bodyfall6.wav", "bodyfall5.wav", "bodyfall4.wav", "bodyfall9.wav", "bodyfall8.wav", "bodyfall7.wav", "bodyhit3.wav", "bodyhit2.wav", "bodyhit1.wav", "bodyhit7.wav", "bodyhit6.wav", "bodyhit5.wav", "bodyhit4.wav", "bottle_smash_01.wav", "bodyhit9.wav", "bodyhit8.wav", "bottle_smash_04.wav", "bottle_smash_03.wav", "bottle_smash_02.wav", "brainsplat3.wav", "brainsplat2.wav", "brainsplat1.wav", "brainsplat6.wav", "brainsplat5.wav", "brainsplat4.wav", "bulletwhiz07.wav", "bulletwhiz06.wav", "bulletwhiz02.wav", "bulletwhiz12.wav", "bulletwhiz10.wav", "bulletwhiz09.wav", "bulletwhiz08.wav", "bulletwhiz24.wav", "bulletwhiz23.wav", "bulletwhiz16.wav", "button2.wav", "button1.wav", "bulletwhiz25.wav", "c1-2.wav", "c1-1.wav", "button3.wav", "c2-1.wav", "c1-4.wav", "c1-3.wav", "c3-1.wav", "c2-4.wav", "c2-3.wav", "c2-2.wav", "c4-1.wav", "c3-3.wav", "c3-2.wav", "c4-4.wav", "c4-3.wav", "c4-2.wav", "c5-3.wav", "c5-2.wav", "c5-1.wav", "c6-4.wav", "c6-3.wav", "c6-2.wav", "c6-1.wav", "c7-3.wav", "c7-2.wav", "c7-1.wav", "c8-3.wav", "c8-2.wav", "c8-1.wav", "c9-3.wav", "c9-2.wav", "c9-1.wav", "c10-3.wav", "c10-2.wav", "c10-1.wav", "c9-4.wav", "c11-2.wav", "c11-1.wav", "c10-4.wav", "chamberspin1.wav", "c11-4.wav", "c11-3.wav", "fallback3.wav", "fallback2.wav", "fallback1.wav", "footstep2.wav", "footstep1.wav", "fallback4.wav", "footstep5.wav", "footstep4.wav", "footstep3.wav", "gunshot3.wav", "gunshot2.wav", "gunshot1.wav", "footstep6.wav", "gunshot6.wav", "gunshot12.wav", "gunshot4.wav", "gunshot9.wav", "gunshot8.wav", "gunshot7.wav", "headfly2.wav", "headfly1.wav", "gunshot11.wav", "headhit3.wav", "headhit2.wav", "headhit1.wav", "headpop3.wav", "headpop2.wav", "headpop1.wav", "heartbeat1.wav", "heart_rate_monitor.wav", "headpop5.wav", "headpop4.wav", "knifethrow2.wav", "knifethrow1.wav", "kneel.wav", "nicechime.wav", "knifethrow4.wav", "knifethrow3.wav", "ricochet1.wav", "revolver_cock_08.wav", "noammo.wav", "shotbehind1.wav", "ricochet3.wav", "ricochet2.wav", "duckquack1.wav", "carnival_win_ding_02.wav", "shotbehind2.wav", "knifehit1.wav", "duckquack4.wav", "duckquack3.wav", "duckquack2.wav", "knifehit4.wav", "knifehit3.wav", "knifehit2.wav", "wingflap3.wav", "wingflap2.wav", "wingflap1.wav", "wingflap4.wav"
+PushDuplicate
+Not
+Jump loc5b7b
+loc5b7b:Jump loc0016
+loc5b80:

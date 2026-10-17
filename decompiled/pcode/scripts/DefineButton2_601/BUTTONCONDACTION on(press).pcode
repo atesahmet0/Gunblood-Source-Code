@@ -1,0 +1,39 @@
+Push false, 614562154, 614562435
+Equals
+Not
+If loc0098
+loc0016:If loc003a
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
+loc003a:Jump loc006c
+loc003f:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "cb2"
+GetVariable
+Push "_x"
+GetMember
+SetMember
+GetVariable
+StackSwap
+Push "cb2"
+GetVariable
+Push "_y"
+GetMember
+SetMember
+CallFunction
+Pop
+Jump loc00cf
+loc006c:Push 2, 1, "-", "_y", "charglow", "_x", "charglow", 0f, "start", 47, "allsounds", "_root"
+Jump loc003f
+loc0098:ConstantPool "cb2", "_x", "_y", "-", "charglow", "start", "allsounds", "_root"
+PushDuplicate
+Not
+Jump loc0016
+loc00cf:

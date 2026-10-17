@@ -1,0 +1,20 @@
+Push false, 1622181945, 1622182261
+Equals
+Not
+If loc004d
+loc0016:If loc002e
+ConstantPool "A", "B", "C", "D", "E", "F", "G"
+loc002e:Jump loc003c
+loc0033:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc006a
+loc003c:Push 0f, "case ", "_root"
+Jump loc0033
+loc004d:ConstantPool "case ", "_root"
+PushDuplicate
+Not
+Jump loc0065
+loc0065:Jump loc0016
+loc006a:

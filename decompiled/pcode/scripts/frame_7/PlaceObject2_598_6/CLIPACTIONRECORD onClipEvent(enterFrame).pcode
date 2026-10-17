@@ -1,0 +1,48 @@
+Push false, 926776306, 926776474
+Equals
+Not
+If loc009b
+loc0016:If loc0026
+ConstantPool "A", "B", "C"
+loc0026:Jump loc0034
+loc002b:GetVariable
+StackSwap
+Equals2
+Not
+Jump loc0043
+loc0034:Push 30, "dynamic"
+Jump loc002b
+loc0043:If loc006c
+Jump loc0055
+loc004d:GetVariable
+StackSwap
+CallMethod
+Jump loc006b
+loc0055:Push 5, 1, "gotoAndStop", "_root"
+Jump loc004d
+loc006b:Pop
+loc006c:Push "dynamic", 1, "dynamic"
+GetVariable
+StackSwap
+Add2
+SetVariable
+Push 1388391082, 1388391235
+Equals
+Not
+If loc00d2
+WaitForFrame 25964, 15
+Jump loc00bf
+loc009b:ConstantPool "dynamic", "gotoAndStop", "_root"
+Jump loc00cb
+loc00bf:BitRShift
+Unknown_79
+Unknown_6e
+BitOr
+Unknown_6d
+Extends
+BitLShift
+Jump loc00d2
+loc00cb:PushDuplicate
+Not
+Jump loc0016
+loc00d2:

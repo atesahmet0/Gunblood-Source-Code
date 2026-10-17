@@ -1,0 +1,196 @@
+Push false, 639941363, 639941465
+Equals
+Not
+If loc02c4
+loc0016:If loc0032
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I"
+loc0032:DefineFunction "true ", 0 {
+Jump loc0044
+loc0044:Push "A", 0f
+Jump loc0053
+loc0053:SetVariable
+loc0054:Push 20, "A"
+GetVariable
+StackSwap
+Less2
+Not
+If loc01a5
+Jump loc0094
+loc006c:GetVariable
+StackSwap
+Add2
+Add2
+GetVariable
+SetVariable
+GetVariable
+StackSwap
+Push "B"
+SetMember
+GetVariable
+StackSwap
+Push "B"
+SetMember
+GetVariable
+StackSwap
+Push "B"
+SetMember
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Not
+Jump loc00b7
+loc0094:Push "A", "C", "D", "E", "F", "E", "G", "E", "E", "H", 1, "A"
+Jump loc006c
+loc00b7:If loc011c
+Jump loc0103
+loc00c1:GetVariable
+StackSwap
+Push 0f, "I"
+GetVariable
+Push "A"
+GetVariable
+GetMember
+Push constant9
+CallMethod
+SetMember
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "A"
+GetVariable
+GetMember
+SetMember
+GetVariable
+StackSwap
+Push "A"
+GetVariable
+Push 1
+Add2
+SetMember
+Jump loc0117
+loc0103:Push "D", "E", "F", "E", "G", "E"
+Jump loc00c1
+loc0117:Jump loc0154
+loc011c:Push "G", "E"
+GetVariable
+StackSwap
+Push "B"
+SetMember
+Jump loc0145
+loc0130:GetVariable
+Push "F", "B"
+SetMember
+GetVariable
+StackSwap
+Push "B"
+Jump loc0153
+loc0145:Push "D", "E", "E"
+Jump loc0130
+loc0153:SetMember
+loc0154:Push "A", constant10
+GetVariable
+StackSwap
+GetVariable
+GetMember
+Push 1
+Equals2
+Not
+If loc0196
+Jump loc017d
+loc0173:GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Jump loc0195
+loc017d:Push 2, 1, constant11, constant12, "E"
+Jump loc0173
+loc0195:Pop
+loc0196:Push "A", "A"
+GetVariable
+Increment
+SetVariable
+Jump loc0054
+loc01a5:Push constant13, 1
+SetVariable
+}
+Push constant14, constant15
+GetVariable
+StackSwap
+Push 1
+SetMember
+Jump loc01f2
+loc01c7:GetVariable
+Push "_visible", 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push "HIGH"
+SetMember
+SetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0214
+loc01f2:Push 0f, "use", "_root", "thiscont", 0f, "_quality", "_root", "_visible", "each", "4\""
+Jump loc01c7
+loc0214:If loc0235
+Jump loc0224
+loc021e:SetVariable
+Jump loc0230
+loc0224:Push "7#", "GLOBAL"
+Jump loc021e
+loc0230:Jump loc0242
+loc0235:Push "7#", "use", "_root"
+GetVariable
+StackSwap
+GetMember
+SetVariable
+loc0242:Push 1, "newscores"
+GetVariable
+StackSwap
+Equals2
+Not
+If loc02a4
+Jump loc0281
+loc025a:SetVariable
+SetVariable
+RandomNumber
+Add2
+Push "&g="
+Add2
+Push "_root"
+GetVariable
+Push "use"
+GetMember
+Add2
+Push "getscores"
+GetVariable
+GetURL2 true, true, 0
+SetVariable
+Jump loc029f
+loc0281:Push "newscores", 0f, "http://www.gunblood.com/getgunscores.php?rn=", 100000, "ascores", "", "anames", ""
+Jump loc025a
+loc029f:Jump loc03c3
+loc02a4:Push 0f, "true "
+CallFunction
+Pop
+Push 1356000681, 1356000824
+Equals
+Not
+If loc03c3
+loc02c4:ConstantPool "sc", "", "ascores", "numout", "ascore", "scoreout", "nameout", "score", "anames", "toUpperCase", "atrophies", "gotoAndStop", "compstar", "thiscont", "_visible", " in", "HIGH", "use", "_root", "_quality", "each", "4\"", "7#", "GLOBAL", "newscores", "&g=", "getscores", "http://www.gunblood.com/getgunscores.php?rn=", "true "
+PushDuplicate
+Not
+Jump loc03be
+loc03be:Jump loc0016
+loc03c3:

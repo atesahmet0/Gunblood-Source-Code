@@ -1,0 +1,60 @@
+Push false, 339157553, 339157780
+Equals
+Not
+If loc00f9
+loc0016:If loc003c
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"
+loc003c:Jump loc0047
+loc0041:GetVariable
+Jump loc0051
+loc0047:Push "get "
+Jump loc0041
+loc0051:If loc0156
+Jump loc007a
+loc005b:GetVariable
+StackSwap
+CallMethod
+Push 0f, "Selection"
+GetVariable
+Push "getBeginIndex"
+CallMethod
+Subtract
+SetVariable
+GetVariable
+StackSwap
+Less2
+Not
+Jump loc0094
+loc007a:Push 1, "for", "for", 0f, "getEndIndex", "Selection"
+Jump loc005b
+loc0094:If loc00da
+Jump loc00bd
+loc009e:GetVariable
+StackSwap
+CallMethod
+SetVariable
+GetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 2, "Selection"
+GetVariable
+Push "setSelection"
+CallMethod
+Jump loc00d9
+loc00bd:Push 0f, "length", "5", "5", 0f, "getFocus", "Selection"
+Jump loc009e
+loc00d9:Pop
+loc00da:Push "get ", 1
+SetVariable
+Push 491170614, 491170924
+Equals
+Not
+If loc0156
+loc00f9:ConstantPool "get ", "Selection", "getBeginIndex", "for", "getEndIndex", "setSelection", "length", "5", "getFocus"
+PushDuplicate
+Not
+Jump loc0151
+loc0151:Jump loc0016
+loc0156:

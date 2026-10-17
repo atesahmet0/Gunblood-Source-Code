@@ -1,0 +1,573 @@
+Push false, 1184336185, 1184336553
+Equals
+Not
+If loc070c
+loc0016:If loc002c
+ConstantPool "A", "B", "C", "D", "E", "F"
+loc002c:Jump loc0076
+loc0031:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc00a5
+loc0076:Push 0f, "bonusgo", "mainclip", "scaleclip", "_root", "_visible", "finally", "1#", "_visible", "if ", "1#", "_visible", "super", "1#", "setmouse", "mainclip", "scaleclip", "_root"
+Jump loc0031
+loc00a5:If loc03ff
+Jump loc00c0
+loc00af:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Greater
+Not
+Jump loc00d7
+loc00c0:Push 0f, "life", "char", "mainclip", "scaleclip", "_root"
+Jump loc00af
+loc00d7:If loc03a6
+Jump loc0147
+loc00e1:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "char"
+GetMember
+Push "shotstaken"
+GetMember
+SetMember
+GetVariable
+StackSwap
+Push 10, "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "gametime"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Less2
+Not
+Jump loc016d
+loc0147:Push 0f, "&!", "1#", "&!", "1#", "roundshots", "1#", 0f, "Celebrate", "mainclip", "scaleclip", "_root"
+Jump loc00e1
+loc016d:If loc0193
+Jump loc0186
+loc0177:GetVariable
+StackSwap
+Push 0f
+Jump loc0192
+loc0186:Push "&!", "1#"
+Jump loc0177
+loc0192:SetMember
+loc0193:Push 10, "&!", "1#"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Greater
+Not
+If loc01cb
+Jump loc01be
+loc01af:GetVariable
+StackSwap
+Push 10
+Jump loc01ca
+loc01be:Push "&!", "1#"
+Jump loc01af
+loc01ca:SetMember
+loc01cb:Push "0!", "1#"
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "char2"
+GetMember
+Push "hitstaken"
+GetMember
+Push "1#"
+GetVariable
+Push "roundshots"
+GetMember
+Divide
+Push 10
+Multiply
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Jump loc0266
+loc021f:GetVariable
+Push " for", "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "char"
+GetMember
+Push "life"
+GetMember
+Push 10
+Divide
+Push 1, "Math"
+GetVariable
+Push "ceil"
+CallMethod
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0279
+loc0266:Push 0f, "drawgame", "_root", "1#"
+Jump loc021f
+loc0279:If loc02f3
+Jump loc02de
+loc0283:GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "3%"
+GetMember
+Push "1#"
+GetVariable
+Push "&!"
+GetMember
+ToNumber
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "throw"
+GetMember
+Push "1#"
+GetVariable
+Push "0!"
+GetMember
+ToNumber
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "`$"
+GetMember
+Push "1#"
+GetVariable
+Push " for"
+GetMember
+ToNumber
+Add2
+Jump loc02f2
+loc02de:Push "`$", "_root", "throw", "_root", "3%", "_root"
+Jump loc0283
+loc02f2:SetMember
+loc02f3:Push 9, "gamelevel", "_root"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+PushDuplicate
+Not
+If loc032a
+Pop
+Push 0f, "life", "char2", "mainclip", "scaleclip", "_root"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Greater
+Not
+loc032a:Not
+If loc035a
+Jump loc0341
+loc0335:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Jump loc0359
+loc0341:Push 0f, "start", 134, "allsounds", "_root"
+Jump loc0335
+loc0359:Pop
+loc035a:Push "&!", "1#"
+GetVariable
+StackSwap
+GetMember
+ToNumber
+Push "1#"
+GetVariable
+Push "0!"
+GetMember
+ToNumber
+Add2
+Push "1#"
+GetVariable
+Push " for"
+GetMember
+ToNumber
+Add2
+Push "_root"
+GetVariable
+Push "<%"
+GetMember
+Multiply
+Push 1, "_root"
+GetVariable
+Push "null"
+GetMember
+Push "push"
+CallMethod
+Pop
+loc03a6:Push "totalscore", "1#"
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "3%"
+GetMember
+Push "_root"
+GetVariable
+Push "throw"
+GetMember
+Add2
+Push "_root"
+GetVariable
+Push "`$"
+GetMember
+Add2
+SetMember
+Jump loc03f0
+loc03db:GetVariable
+Push "7%", "_root"
+GetVariable
+Push "gamelevel"
+GetMember
+SetMember
+Jump loc03fa
+loc03f0:Push "1#"
+Jump loc03db
+loc03fa:Jump loc0836
+loc03ff:Push 2, "bonusgo", "mainclip", "scaleclip", "_root"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+If loc046b
+Jump loc045a
+loc0423:GetVariable
+StackSwap
+Push 14, "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "gametime"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Jump loc0466
+loc045a:Push "&!", "1#"
+Jump loc0423
+loc0466:Jump loc0510
+loc046b:Push 3, "bonusgo", "mainclip", "scaleclip", "_root"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+If loc04d7
+Jump loc04c6
+loc048f:GetVariable
+StackSwap
+Push 12, "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "gametime"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Jump loc04d2
+loc04c6:Push "&!", "1#"
+Jump loc048f
+loc04d2:Jump loc0510
+loc04d7:Push "&!", "1#"
+GetVariable
+StackSwap
+Push 18, "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "gametime"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+loc0510:Push 0f, "&!", "1#"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Less2
+Not
+If loc0548
+Jump loc053b
+loc052c:GetVariable
+StackSwap
+Push 0f
+Jump loc0547
+loc053b:Push "&!", "1#"
+Jump loc052c
+loc0547:SetMember
+loc0548:Push 10, "&!", "1#"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Greater
+Not
+If loc0580
+Jump loc0573
+loc0564:GetVariable
+StackSwap
+Push 10
+Jump loc057f
+loc0573:Push "&!", "1#"
+Jump loc0564
+loc057f:SetMember
+loc0580:Push "0!", "1#"
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "botbreak"
+GetMember
+Push 5
+Multiply
+SetMember
+Jump loc05c9
+loc05b0:GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "bonusfail"
+GetMember
+Not
+Jump loc05d3
+loc05c9:Push "_root"
+Jump loc05b0
+loc05d3:If loc0623
+Jump loc05fe
+loc05dd:GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+Jump loc061e
+loc05fe:Push 2, 1, "gotoAndStop", "bonusclip", "1#", "0!", "1#", "&!", "1#"
+Jump loc05dd
+loc061e:Jump loc0679
+loc0623:Push "3%", "_root"
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "3%"
+GetMember
+Push "1#"
+GetVariable
+Push "&!"
+GetMember
+ToNumber
+Add2
+SetMember
+Jump loc066e
+loc064c:GetVariable
+Push "throw", "_root"
+GetVariable
+Push "throw"
+GetMember
+Push "1#"
+GetVariable
+Push "0!"
+GetMember
+ToNumber
+Add2
+Jump loc0678
+loc066e:Push "_root"
+Jump loc064c
+loc0678:SetMember
+loc0679:Push "totalscore", "1#"
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "3%"
+GetMember
+Push "_root"
+GetVariable
+Push "throw"
+GetMember
+Add2
+Push "_root"
+GetVariable
+Push "`$"
+GetMember
+Add2
+SetMember
+Jump loc06ed
+loc06ae:GetVariable
+Push "&!"
+GetMember
+ToNumber
+Push "1#"
+GetVariable
+Push "0!"
+GetMember
+ToNumber
+Add2
+Push "_root"
+GetVariable
+Push "<%"
+GetMember
+Multiply
+Push 1, "_root"
+GetVariable
+Push "null"
+GetMember
+Push "push"
+CallMethod
+Jump loc06f7
+loc06ed:Push "1#"
+Jump loc06ae
+loc06f7:Pop
+Push 1050163413, 1050163490
+Equals
+Not
+If loc0836
+loc070c:ConstantPool "bonusgo", "mainclip", "scaleclip", "_root", "_visible", "finally", "1#", "if ", "super", "setmouse", "life", "char", "shotstaken", "gametime", "Math", "round", "&!", "roundshots", "Celebrate", "0!", "char2", "hitstaken", " for", "ceil", "drawgame", "3%", "throw", "`$", "gamelevel", "start", "allsounds", "<%", "null", "push", "totalscore", "7%", "botbreak", "bonusfail", "gotoAndStop", "bonusclip"
+PushDuplicate
+Not
+Jump loc0831
+loc0831:Jump loc0016
+loc0836:

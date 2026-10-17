@@ -1,0 +1,31 @@
+Push false, 35829612, 35829816
+Equals
+Not
+If loc0076
+loc0016:If loc0036
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"
+loc0036:Jump loc0057
+loc003b:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "System"
+GetVariable
+Push "setClipboard"
+CallMethod
+Pop
+Jump loc00b4
+loc0057:Push 1, "\"!", 0f, "start", 45, "allsounds", "_root"
+Jump loc003b
+loc0076:ConstantPool "System", "setClipboard", "\"!", "start", "allsounds", "_root"
+PushDuplicate
+Not
+Jump loc00af
+loc00af:Jump loc0016
+loc00b4:

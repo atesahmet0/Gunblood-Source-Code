@@ -1,0 +1,258 @@
+Config autoDeobfuscate set to true
+Config parallelSpeedUp set to false
+JPEXS Free Flash Decompiler v.18.5.0
+------------------------------------
+Exporting scripts...
+Exported script 1/251 decompiled/recovery-legacy/scripts/DefineButton2_35/BUTTONCONDACTION on(press).as, 00:00.017
+Exported script 2/251 decompiled/recovery-legacy/scripts/DefineButton2_40/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 3/251 decompiled/recovery-legacy/scripts/DefineButton2_48/BUTTONCONDACTION on(press).as, 00:00.002
+Exported script 4/251 decompiled/recovery-legacy/scripts/DefineButton2_49/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 5/251 decompiled/recovery-legacy/scripts/DefineButton2_56/BUTTONCONDACTION on(release).as, 00:00.007
+Exported script 6/251 decompiled/recovery-legacy/scripts/DefineButton2_62/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 7/251 decompiled/recovery-legacy/scripts/DefineButton2_69/BUTTONCONDACTION on(press).as, 00:00.002
+Exported script 8/251 decompiled/recovery-legacy/scripts/DefineButton2_85/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 9/251 decompiled/recovery-legacy/scripts/DefineButton2_89/BUTTONCONDACTION on(release).as, 00:00.005
+Exported script 10/251 decompiled/recovery-legacy/scripts/DefineButton2_158/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 11/251 decompiled/recovery-legacy/scripts/DefineButton2_160/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 12/251 decompiled/recovery-legacy/scripts/DefineButton2_167/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 13/251 decompiled/recovery-legacy/scripts/DefineButton2_168/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 14/251 decompiled/recovery-legacy/scripts/DefineButton2_169/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 15/251 decompiled/recovery-legacy/scripts/DefineButton2_170/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 16/251 decompiled/recovery-legacy/scripts/DefineButton2_171/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 17/251 decompiled/recovery-legacy/scripts/DefineButton2_176/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 18/251 decompiled/recovery-legacy/scripts/DefineButton2_509/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 19/251 decompiled/recovery-legacy/scripts/DefineButton2_518/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 20/251 decompiled/recovery-legacy/scripts/DefineButton2_522/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 21/251 decompiled/recovery-legacy/scripts/DefineButton2_524/BUTTONCONDACTION on(release).as, 00:00.002
+Exported script 22/251 decompiled/recovery-legacy/scripts/DefineButton2_556/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 23/251 decompiled/recovery-legacy/scripts/DefineButton2_558/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 24/251 decompiled/recovery-legacy/scripts/DefineButton2_565/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 25/251 decompiled/recovery-legacy/scripts/DefineButton2_571/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 26/251 decompiled/recovery-legacy/scripts/DefineButton2_576/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 27/251 decompiled/recovery-legacy/scripts/DefineButton2_581/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 28/251 decompiled/recovery-legacy/scripts/DefineButton2_586/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 29/251 decompiled/recovery-legacy/scripts/DefineButton2_600/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 30/251 decompiled/recovery-legacy/scripts/DefineButton2_600/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 31/251 decompiled/recovery-legacy/scripts/DefineButton2_600/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 32/251 decompiled/recovery-legacy/scripts/DefineButton2_601/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 33/251 decompiled/recovery-legacy/scripts/DefineButton2_601/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 34/251 decompiled/recovery-legacy/scripts/DefineButton2_601/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 35/251 decompiled/recovery-legacy/scripts/DefineButton2_602/BUTTONCONDACTION on(rollOver).as, 00:00.001
+Exported script 36/251 decompiled/recovery-legacy/scripts/DefineButton2_602/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 37/251 decompiled/recovery-legacy/scripts/DefineButton2_602/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 38/251 decompiled/recovery-legacy/scripts/DefineButton2_603/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 39/251 decompiled/recovery-legacy/scripts/DefineButton2_603/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 40/251 decompiled/recovery-legacy/scripts/DefineButton2_603/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 41/251 decompiled/recovery-legacy/scripts/DefineButton2_604/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 42/251 decompiled/recovery-legacy/scripts/DefineButton2_604/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 43/251 decompiled/recovery-legacy/scripts/DefineButton2_604/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 44/251 decompiled/recovery-legacy/scripts/DefineButton2_605/BUTTONCONDACTION on(rollOver).as, 00:00.001
+Exported script 45/251 decompiled/recovery-legacy/scripts/DefineButton2_605/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 46/251 decompiled/recovery-legacy/scripts/DefineButton2_605/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 47/251 decompiled/recovery-legacy/scripts/DefineButton2_606/BUTTONCONDACTION on(rollOver).as, 00:00.001
+Exported script 48/251 decompiled/recovery-legacy/scripts/DefineButton2_606/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 49/251 decompiled/recovery-legacy/scripts/DefineButton2_606/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 50/251 decompiled/recovery-legacy/scripts/DefineButton2_607/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 51/251 decompiled/recovery-legacy/scripts/DefineButton2_607/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 52/251 decompiled/recovery-legacy/scripts/DefineButton2_607/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 53/251 decompiled/recovery-legacy/scripts/DefineButton2_618/BUTTONCONDACTION on(rollOver).as, 00:00.001
+Exported script 54/251 decompiled/recovery-legacy/scripts/DefineButton2_618/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 55/251 decompiled/recovery-legacy/scripts/DefineButton2_618/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 56/251 decompiled/recovery-legacy/scripts/DefineButton2_619/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 57/251 decompiled/recovery-legacy/scripts/DefineButton2_619/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 58/251 decompiled/recovery-legacy/scripts/DefineButton2_619/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 59/251 decompiled/recovery-legacy/scripts/DefineButton2_625/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 60/251 decompiled/recovery-legacy/scripts/DefineButton2_629/BUTTONCONDACTION on(release).as, 00:00.007
+Exported script 61/251 decompiled/recovery-legacy/scripts/DefineButton2_635/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 62/251 decompiled/recovery-legacy/scripts/DefineButton2_635/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 63/251 decompiled/recovery-legacy/scripts/DefineButton2_635/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 64/251 decompiled/recovery-legacy/scripts/DefineButton2_639/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 65/251 decompiled/recovery-legacy/scripts/DefineButton2_639/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 66/251 decompiled/recovery-legacy/scripts/DefineButton2_639/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 67/251 decompiled/recovery-legacy/scripts/DefineButton2_643/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 68/251 decompiled/recovery-legacy/scripts/DefineButton2_643/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 69/251 decompiled/recovery-legacy/scripts/DefineButton2_643/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 70/251 decompiled/recovery-legacy/scripts/DefineButton2_647/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 71/251 decompiled/recovery-legacy/scripts/DefineButton2_647/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 72/251 decompiled/recovery-legacy/scripts/DefineButton2_647/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 73/251 decompiled/recovery-legacy/scripts/DefineButton2_651/BUTTONCONDACTION on(press).as, 00:00.001
+Exported script 74/251 decompiled/recovery-legacy/scripts/DefineButton2_651/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 75/251 decompiled/recovery-legacy/scripts/DefineButton2_651/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 76/251 decompiled/recovery-legacy/scripts/DefineButton2_655/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 77/251 decompiled/recovery-legacy/scripts/DefineButton2_655/BUTTONCONDACTION on(rollOver).as, 00:00.001
+Exported script 78/251 decompiled/recovery-legacy/scripts/DefineButton2_655/BUTTONCONDACTION on(rollOut).as, 00:00.000
+Exported script 79/251 decompiled/recovery-legacy/scripts/DefineButton2_661/BUTTONCONDACTION on(release).as, 00:00.002
+Exported script 80/251 decompiled/recovery-legacy/scripts/DefineButton2_663/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 81/251 decompiled/recovery-legacy/scripts/DefineButton2_668/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 82/251 decompiled/recovery-legacy/scripts/DefineButton2_681/BUTTONCONDACTION on(release).as, 00:00.000
+Exported script 83/251 decompiled/recovery-legacy/scripts/DefineButton2_684/BUTTONCONDACTION on(release).as, 00:00.001
+Exported script 84/251 decompiled/recovery-legacy/scripts/DefineButton2_847/BUTTONCONDACTION on(press).as, 00:00.000
+Exported script 85/251 decompiled/recovery-legacy/scripts/DefineButton2_847/BUTTONCONDACTION on(rollOver).as, 00:00.000
+Exported script 86/251 decompiled/recovery-legacy/scripts/DefineButton2_847/BUTTONCONDACTION on(rollOut).as, 00:00.001
+Exported script 87/251 decompiled/recovery-legacy/scripts/DefineSprite_4_feathers/frame_1/PlaceObject2_3_1/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.001
+Exported script 88/251 decompiled/recovery-legacy/scripts/DefineSprite_15/frame_1/DoAction.as, 00:00.000
+Exported script 89/251 decompiled/recovery-legacy/scripts/DefineSprite_16_smoker/frame_6/DoAction.as, 00:00.001
+Exported script 90/251 decompiled/recovery-legacy/scripts/DefineSprite_17_smoke/frame_10/DoAction.as, 00:00.000
+Exported script 91/251 decompiled/recovery-legacy/scripts/DefineSprite_72/frame_1/DoAction.as, 00:00.000
+Exported script 92/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_1/DoAction.as, 00:00.001
+Exported script 93/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_2/PlaceObject2_52_13/CLIPACTIONRECORD onClipEvent(mouseUp).as, 00:00.000
+Exported script 94/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_2/PlaceObject2_52_13/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.001
+Exported script 95/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_2/DoAction.as, 00:00.000
+Exported script 96/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_3/DoAction.as, 00:00.000
+Exported script 97/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_4/DoAction.as, 00:00.001
+Exported script 98/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_5/DoAction.as, 00:00.000
+Exported script 99/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_6/DoAction.as, 00:00.000
+Exported script 100/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_7/PlaceObject2_88_12/CLIPACTIONRECORD onClipEvent(mouseUp).as, 00:00.000
+Exported script 101/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_7/PlaceObject2_88_12/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.001
+Exported script 102/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_7/DoAction.as, 00:00.000
+Exported script 103/251 decompiled/recovery-legacy/scripts/DefineSprite_96/frame_8/DoAction.as, 00:00.000
+Exported script 104/251 decompiled/recovery-legacy/scripts/DefineSprite_97_levelload/frame_1/DoAction.as, 00:00.001
+Exported script 105/251 decompiled/recovery-legacy/scripts/DefineSprite_97_levelload/frame_50/DoAction.as, 00:00.004
+Exported script 106/251 decompiled/recovery-legacy/scripts/DefineSprite_97_levelload/frame_60/DoAction.as, 00:00.000
+Exported script 107/251 decompiled/recovery-legacy/scripts/DefineSprite_103/frame_13/DoAction.as, 00:00.000
+Exported script 108/251 decompiled/recovery-legacy/scripts/DefineSprite_115_bchunks/frame_1/DoAction.as, 00:00.001
+Exported script 109/251 decompiled/recovery-legacy/scripts/DefineSprite_125/frame_17/DoAction.as, 00:00.000
+Exported script 110/251 decompiled/recovery-legacy/scripts/DefineSprite_125/frame_18/DoAction.as, 00:00.001
+Exported script 111/251 decompiled/recovery-legacy/scripts/DefineSprite_125/frame_28/DoAction.as, 00:00.000
+Exported script 112/251 decompiled/recovery-legacy/scripts/DefineSprite_141/frame_1/DoAction.as, 00:00.001
+Exported script 113/251 decompiled/recovery-legacy/scripts/DefineSprite_144/frame_1/DoAction.as, 00:00.000
+Exported script 114/251 decompiled/recovery-legacy/scripts/DefineSprite_162/frame_1/DoAction.as, 00:00.000
+Exported script 115/251 decompiled/recovery-legacy/scripts/DefineSprite_182/frame_1/DoAction.as, 00:00.000
+Exported script 116/251 decompiled/recovery-legacy/scripts/DefineSprite_186/frame_1/DoAction.as, 00:00.001
+Exported script 117/251 decompiled/recovery-legacy/scripts/DefineSprite_188/frame_1/DoAction.as, 00:00.000
+Exported script 118/251 decompiled/recovery-legacy/scripts/DefineSprite_190/frame_1/DoAction.as, 00:00.000
+Exported script 119/251 decompiled/recovery-legacy/scripts/DefineSprite_192/frame_1/DoAction.as, 00:00.001
+Exported script 120/251 decompiled/recovery-legacy/scripts/DefineSprite_202/frame_1/DoAction.as, 00:00.000
+Exported script 121/251 decompiled/recovery-legacy/scripts/DefineSprite_207/frame_1/DoAction.as, 00:00.000
+Exported script 122/251 decompiled/recovery-legacy/scripts/DefineSprite_219/frame_1/DoAction.as, 00:00.000
+Exported script 123/251 decompiled/recovery-legacy/scripts/DefineSprite_223/frame_1/DoAction.as, 00:00.000
+Exported script 124/251 decompiled/recovery-legacy/scripts/DefineSprite_265/frame_1/DoAction.as, 00:00.001
+Exported script 125/251 decompiled/recovery-legacy/scripts/DefineSprite_265/frame_2/PlaceObject2_226_2/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.000
+Exported script 126/251 decompiled/recovery-legacy/scripts/DefineSprite_265/frame_2/DoAction.as, 00:00.002
+Exported script 127/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_1/DoAction.as, 00:00.001
+Exported script 128/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_45/DoAction.as, 00:00.000
+Exported script 129/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_53/DoAction.as, 00:00.000
+Exported script 130/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_90/DoAction.as, 00:00.000
+Exported script 131/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_139/DoAction.as, 00:00.000
+Exported script 132/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_155/DoAction.as, 00:00.001
+Exported script 133/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_164/DoAction.as, 00:00.000
+Exported script 134/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_190/DoAction.as, 00:00.000
+Exported script 135/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_216/DoAction.as, 00:00.000
+Exported script 136/251 decompiled/recovery-legacy/scripts/DefineSprite_266/frame_251/DoAction.as, 00:00.000
+Exported script 137/251 decompiled/recovery-legacy/scripts/DefineSprite_279/frame_1/DoAction.as, 00:00.001
+Exported script 138/251 decompiled/recovery-legacy/scripts/DefineSprite_282/frame_1/DoAction.as, 00:00.000
+Exported script 139/251 decompiled/recovery-legacy/scripts/DefineSprite_302/frame_1/DoAction.as, 00:00.000
+Exported script 140/251 decompiled/recovery-legacy/scripts/DefineSprite_305/frame_1/DoAction.as, 00:00.000
+Exported script 141/251 decompiled/recovery-legacy/scripts/DefineSprite_307/frame_1/DoAction.as, 00:00.001
+Exported script 142/251 decompiled/recovery-legacy/scripts/DefineSprite_309/frame_1/DoAction.as, 00:00.000
+Exported script 143/251 decompiled/recovery-legacy/scripts/DefineSprite_314/frame_1/DoAction.as, 00:00.000
+Exported script 144/251 decompiled/recovery-legacy/scripts/DefineSprite_315/frame_1/DoAction.as, 00:00.000
+Exported script 145/251 decompiled/recovery-legacy/scripts/DefineSprite_324/frame_1/DoAction.as, 00:00.001
+Exported script 146/251 decompiled/recovery-legacy/scripts/DefineSprite_327/frame_1/DoAction.as, 00:00.000
+Exported script 147/251 decompiled/recovery-legacy/scripts/DefineSprite_329/frame_1/DoAction.as, 00:00.000
+Exported script 148/251 decompiled/recovery-legacy/scripts/DefineSprite_331/frame_1/DoAction.as, 00:00.000
+Exported script 149/251 decompiled/recovery-legacy/scripts/DefineSprite_333/frame_1/DoAction.as, 00:00.001
+Exported script 150/251 decompiled/recovery-legacy/scripts/DefineSprite_335/frame_1/DoAction.as, 00:00.000
+Exported script 151/251 decompiled/recovery-legacy/scripts/DefineSprite_345/frame_1/DoAction.as, 00:00.000
+Exported script 152/251 decompiled/recovery-legacy/scripts/DefineSprite_348/frame_1/DoAction.as, 00:00.001
+Exported script 153/251 decompiled/recovery-legacy/scripts/DefineSprite_352/frame_1/DoAction.as, 00:00.000
+Exported script 154/251 decompiled/recovery-legacy/scripts/DefineSprite_363/frame_1/DoAction.as, 00:00.000
+Exported script 155/251 decompiled/recovery-legacy/scripts/DefineSprite_383/frame_1/DoAction.as, 00:00.001
+Exported script 156/251 decompiled/recovery-legacy/scripts/DefineSprite_386/frame_1/DoAction.as, 00:00.000
+Exported script 157/251 decompiled/recovery-legacy/scripts/DefineSprite_388/frame_1/DoAction.as, 00:00.000
+Exported script 158/251 decompiled/recovery-legacy/scripts/DefineSprite_390/frame_1/DoAction.as, 00:00.001
+Exported script 159/251 decompiled/recovery-legacy/scripts/DefineSprite_392/frame_1/DoAction.as, 00:00.000
+Exported script 160/251 decompiled/recovery-legacy/scripts/DefineSprite_404/frame_1/DoAction.as, 00:00.000
+Exported script 161/251 decompiled/recovery-legacy/scripts/DefineSprite_410/frame_1/DoAction.as, 00:00.001
+Exported script 162/251 decompiled/recovery-legacy/scripts/DefineSprite_416/frame_1/DoAction.as, 00:00.000
+Exported script 163/251 decompiled/recovery-legacy/scripts/DefineSprite_422/frame_1/DoAction.as, 00:00.000
+Exported script 164/251 decompiled/recovery-legacy/scripts/DefineSprite_428/frame_1/DoAction.as, 00:00.000
+Exported script 165/251 decompiled/recovery-legacy/scripts/DefineSprite_434/frame_1/DoAction.as, 00:00.000
+Exported script 166/251 decompiled/recovery-legacy/scripts/DefineSprite_438/frame_1/DoAction.as, 00:00.001
+Exported script 167/251 decompiled/recovery-legacy/scripts/DefineSprite_446/frame_1/DoAction.as, 00:00.000
+Exported script 168/251 decompiled/recovery-legacy/scripts/DefineSprite_452/frame_1/DoAction.as, 00:00.000
+Exported script 169/251 decompiled/recovery-legacy/scripts/DefineSprite_458/frame_1/DoAction.as, 00:00.000
+Exported script 170/251 decompiled/recovery-legacy/scripts/DefineSprite_461/frame_1/DoAction.as, 00:00.001
+Exported script 171/251 decompiled/recovery-legacy/scripts/DefineSprite_462/frame_1/DoAction.as, 00:00.000
+Exported script 172/251 decompiled/recovery-legacy/scripts/DefineSprite_483/frame_1/DoAction.as, 00:00.000
+Exported script 173/251 decompiled/recovery-legacy/scripts/DefineSprite_488/frame_1/DoAction.as, 00:00.000
+Exported script 174/251 decompiled/recovery-legacy/scripts/DefineSprite_493/frame_1/DoAction.as, 00:00.000
+Exported script 175/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_1/DoAction.as, 00:00.001
+Exported script 176/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_104/DoAction.as, 00:00.000
+Exported script 177/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_115/DoAction.as, 00:00.001
+Exported script 178/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_125/DoAction.as, 00:00.000
+Exported script 179/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_130/DoAction.as, 00:00.000
+Exported script 180/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_150/DoAction.as, 00:00.000
+Exported script 181/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_160/DoAction.as, 00:00.000
+Exported script 182/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_165/DoAction.as, 00:00.001
+Exported script 183/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_175/DoAction.as, 00:00.000
+Exported script 184/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_180/DoAction.as, 00:00.000
+Exported script 185/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_183/DoAction.as, 00:00.001
+Exported script 186/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_195/DoAction.as, 00:00.000
+Exported script 187/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_200/DoAction.as, 00:00.001
+Exported script 188/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_205/DoAction.as, 00:00.000
+Exported script 189/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_212/DoAction.as, 00:00.001
+Exported script 190/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_217/DoAction.as, 00:00.000
+Exported script 191/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_224/DoAction.as, 00:00.000
+Exported script 192/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_227/DoAction.as, 00:00.001
+Exported script 193/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_232/DoAction.as, 00:00.000
+Exported script 194/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_243/DoAction.as, 00:00.000
+Exported script 195/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_252/DoAction.as, 00:00.000
+Exported script 196/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_255/DoAction.as, 00:00.001
+Exported script 197/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_265/DoAction.as, 00:00.000
+Exported script 198/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_273/DoAction.as, 00:00.001
+Exported script 199/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_280/DoAction.as, 00:00.000
+Exported script 200/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_287/DoAction.as, 00:00.000
+Exported script 201/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_294/DoAction.as, 00:00.000
+Exported script 202/251 decompiled/recovery-legacy/scripts/DefineSprite_494/frame_320/DoAction.as, 00:00.000
+Exported script 203/251 decompiled/recovery-legacy/scripts/DefineSprite_499/frame_1/PlaceObject2_494_225/CLIPACTIONRECORD onClipEvent(mouseMove).as, 00:00.001
+Exported script 204/251 decompiled/recovery-legacy/scripts/DefineSprite_499/frame_1/PlaceObject2_494_225/CLIPACTIONRECORD onClipEvent(mouseDown).as, 00:00.000
+Exported script 205/251 decompiled/recovery-legacy/scripts/DefineSprite_499/frame_1/PlaceObject2_494_225/CLIPACTIONRECORD onClipEvent(mouseUp).as, 00:00.001
+Exported script 206/251 decompiled/recovery-legacy/scripts/DefineSprite_499/frame_1/DoAction.as, 00:00.023
+Exported script 207/251 decompiled/recovery-legacy/scripts/DefineSprite_499/frame_1/DoAction_2.as, 00:00.421
+Exported script 208/251 decompiled/recovery-legacy/scripts/DefineSprite_504/frame_1/DoAction.as, 00:00.000
+Exported script 209/251 decompiled/recovery-legacy/scripts/DefineSprite_508/frame_1/DoAction.as, 00:00.001
+Exported script 210/251 decompiled/recovery-legacy/scripts/DefineSprite_508/frame_30/DoAction.as, 00:00.000
+Exported script 211/251 decompiled/recovery-legacy/scripts/DefineSprite_533/frame_1/DoAction.as, 00:00.000
+Exported script 212/251 decompiled/recovery-legacy/scripts/DefineSprite_533/frame_7/DoAction.as, 00:00.001
+Exported script 213/251 decompiled/recovery-legacy/scripts/DefineSprite_534/frame_1/DoAction.as, 00:00.000
+Exported script 214/251 decompiled/recovery-legacy/scripts/DefineSprite_534/frame_20/DoAction.as, 00:00.000
+Exported script 215/251 decompiled/recovery-legacy/scripts/DefineSprite_538/frame_1/DoAction.as, 00:00.001
+Exported script 216/251 decompiled/recovery-legacy/scripts/DefineSprite_538/frame_2/DoAction.as, 00:00.000
+Exported script 217/251 decompiled/recovery-legacy/scripts/DefineSprite_538/frame_3/DoAction.as, 00:00.000
+Exported script 218/251 decompiled/recovery-legacy/scripts/DefineSprite_552/frame_1/DoAction.as, 00:00.000
+Exported script 219/251 decompiled/recovery-legacy/scripts/DefineSprite_570/frame_1/DoAction.as, 00:00.001
+Exported script 220/251 decompiled/recovery-legacy/scripts/DefineSprite_575/frame_1/DoAction.as, 00:00.000
+Exported script 221/251 decompiled/recovery-legacy/scripts/DefineSprite_580/frame_1/DoAction.as, 00:00.001
+Exported script 222/251 decompiled/recovery-legacy/scripts/DefineSprite_585/frame_1/DoAction.as, 00:00.000
+Exported script 223/251 decompiled/recovery-legacy/scripts/DefineSprite_589/frame_1/DoAction.as, 00:00.001
+Exported script 224/251 decompiled/recovery-legacy/scripts/DefineSprite_677/frame_1/DoAction.as, 00:00.000
+Exported script 225/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_1/PlaceObject2_667_12/CLIPACTIONRECORD onClipEvent(mouseUp).as, 00:00.000
+Exported script 226/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_1/PlaceObject2_667_12/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.001
+Exported script 227/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_1/DoAction.as, 00:00.000
+Exported script 228/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_2/DoAction.as, 00:00.000
+Exported script 229/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_3/DoAction.as, 00:00.001
+Exported script 230/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_4/DoAction.as, 00:00.000
+Exported script 231/251 decompiled/recovery-legacy/scripts/DefineSprite_689/frame_5/DoAction.as, 00:00.000
+Exported script 232/251 decompiled/recovery-legacy/scripts/DefineSprite_840/frame_85/DoAction.as, 00:00.001
+Exported script 233/251 decompiled/recovery-legacy/scripts/frame_1/PlaceObject2_133_7/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.000
+Exported script 234/251 decompiled/recovery-legacy/scripts/frame_1/PlaceObject2_162_273/CLIPACTIONRECORD onClipEvent(load).as, 00:00.000
+Exported script 235/251 decompiled/recovery-legacy/scripts/frame_1/PlaceObject2_163_278/CLIPACTIONRECORD onClipEvent(data).as, 00:00.000
+Exported script 236/251 decompiled/recovery-legacy/scripts/frame_1/DoAction.as, 00:00.002
+Exported script 237/251 decompiled/recovery-legacy/scripts/frame_2/DoAction.as, 00:00.000
+Exported script 238/251 decompiled/recovery-legacy/scripts/frame_3/DoAction.as, 00:00.001
+Exported script 239/251 decompiled/recovery-legacy/scripts/frame_4/DoAction.as, 00:00.000
+Exported script 240/251 decompiled/recovery-legacy/scripts/frame_5/PlaceObject2_540_9/CLIPACTIONRECORD onClipEvent(data).as, 00:00.001
+Exported script 241/251 decompiled/recovery-legacy/scripts/frame_5/DoAction.as, 00:00.001
+Exported script 242/251 decompiled/recovery-legacy/scripts/frame_6/DoAction.as, 00:00.000
+Exported script 243/251 decompiled/recovery-legacy/scripts/frame_7/PlaceObject2_598_6/CLIPACTIONRECORD onClipEvent(load).as, 00:00.001
+Exported script 244/251 decompiled/recovery-legacy/scripts/frame_7/PlaceObject2_598_6/CLIPACTIONRECORD onClipEvent(enterFrame).as, 00:00.000
+Exported script 245/251 decompiled/recovery-legacy/scripts/frame_7/DoAction.as, 00:00.000
+Exported script 246/251 decompiled/recovery-legacy/scripts/frame_8/DoAction.as, 00:00.002
+Exported script 247/251 decompiled/recovery-legacy/scripts/frame_9/DoAction.as, 00:00.000
+Exported script 248/251 decompiled/recovery-legacy/scripts/frame_10/PlaceObject2_689_158/CLIPACTIONRECORD onClipEvent(data).as, 00:00.001
+Exported script 249/251 decompiled/recovery-legacy/scripts/frame_10/DoAction.as, 00:00.000
+Exported script 250/251 decompiled/recovery-legacy/scripts/frame_11/DoAction.as, 00:00.114
+Exported script 251/251 decompiled/recovery-legacy/scripts/frame_12/DoAction.as, 00:00.000
+Export finished. Total export time: 00:01.454
+OK

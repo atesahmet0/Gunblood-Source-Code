@@ -1,0 +1,107 @@
+Push false, 646952377, 646952475
+Equals
+Not
+If loc016b
+loc0016:If loc0034
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
+loc0034:Jump loc004f
+loc0039:GetVariable
+StackSwap
+CallMethod
+DefineLocal
+Push "5\""
+GetVariable
+PushDuplicate
+Not
+If loc0070
+Jump loc0064
+loc004f:Push "chlen", "", 1, "split", "5\""
+Jump loc0039
+loc0064:Pop
+Push "", "5\""
+GetVariable
+StackSwap
+Equals2
+Not
+loc0070:PushDuplicate
+Not
+If loc0083
+Pop
+Push "GROUP NAME", "5\""
+GetVariable
+StackSwap
+Equals2
+Not
+loc0083:PushDuplicate
+Not
+If loc0096
+Pop
+Push "Group Name", "5\""
+GetVariable
+StackSwap
+Equals2
+Not
+loc0096:PushDuplicate
+Not
+If loc00ac
+Pop
+Push 12, "chlen"
+GetVariable
+StackSwap
+Greater
+Not
+loc00ac:Not
+If loc0123
+Jump loc00ed
+loc00b7:GetVariable
+StackSwap
+CallMethod
+SetVariable
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+RandomNumber
+Add2
+Push "&g="
+Add2
+Push "5\""
+GetVariable
+Add2
+Push "_root"
+GetVariable
+Push "true"
+GetMember
+GetURL2 true, true, 0
+SetVariable
+GotoFrame 1
+Jump loc011e
+loc00ed:Push "<\"", 1, "http://www.gunblood.com/newgungroup.php?rannum=", 100000, 0f, "start", 45, "allsounds", "_root", "5\"", 0f, "toUpperCase", "5\""
+Jump loc00b7
+loc011e:Jump loc0211
+loc0123:Push "5\"", "Group Name"
+SetVariable
+Jump loc0147
+loc0130:GetVariable
+Push 1, "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Jump loc0151
+loc0147:Push "=$"
+Jump loc0130
+loc0151:Pop
+Push 118345589, 118345699
+Equals
+Not
+If loc0211
+Jump loc0211
+loc016b:ConstantPool "5\"", "chlen", "", "split", "GROUP NAME", "Group Name", "&g=", "_root", "true", "<\"", "http://www.gunblood.com/newgungroup.php?rannum=", "start", "allsounds", "toUpperCase", "Selection", "setFocus", "=$"
+PushDuplicate
+Not
+Jump loc0016
+loc0211:

@@ -1,0 +1,18 @@
+Push false, 850281916, 850282094
+Equals
+Not
+If loc005e
+loc0016:If loc003c
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"
+loc003c:Jump loc0048
+loc0041:SetVariable
+SetVariable
+Jump loc0078
+loc0048:Push "get ", 0f, "for", 0f
+Jump loc0041
+loc005e:ConstantPool "get ", "for"
+PushDuplicate
+Not
+Jump loc0073
+loc0073:Jump loc0016
+loc0078:

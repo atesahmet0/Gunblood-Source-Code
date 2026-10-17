@@ -1,0 +1,904 @@
+{
+  "passed": 176,
+  "functions": [
+    "updateDetachedHead",
+    "updateOpponentHat",
+    "updatePlayerHat",
+    "updateGameplay",
+    "updateCountdown",
+    "spawnBloodParticles",
+    "detachHat",
+    "applyHeadHitVariant3",
+    "applyUpperBodyHitVariant1",
+    "applyFatalUpperBodyHit",
+    "SubStomach1",
+    "SubStomach2",
+    "SubCrotch",
+    "applyLegHitVariant1",
+    "applyLegHitVariant2",
+    "dispatchCharacterHit"
+  ],
+  "cases": [
+    {
+      "function": "^#",
+      "readable": "updateDetachedHead",
+      "case": "head air"
+    },
+    {
+      "function": "^#",
+      "readable": "updateDetachedHead",
+      "case": "head floor"
+    },
+    {
+      "function": "@",
+      "readable": "updateOpponentHat",
+      "case": "opponent hat air"
+    },
+    {
+      "function": "@",
+      "readable": "updateOpponentHat",
+      "case": "opponent hat floor"
+    },
+    {
+      "function": ">$",
+      "readable": "updatePlayerHat",
+      "case": "player hat air"
+    },
+    {
+      "function": ">$",
+      "readable": "updatePlayerHat",
+      "case": "player hat floor"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick recoil 0"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick recoil 0.1"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick recoil 4"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick projectiles and detachments"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick live duel and animated limbs"
+    },
+    {
+      "function": "@$",
+      "readable": "updateGameplay",
+      "case": "tick bonus effects and aiming guide"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 0"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 599"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 600"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 1199"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 1200"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 1799"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 1800"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 2399"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown 2400"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown leaves holster"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown pause visible"
+    },
+    {
+      "function": "9!",
+      "readable": "updateCountdown",
+      "case": "countdown bonus round"
+    },
+    {
+      "function": "#%",
+      "readable": "spawnBloodParticles",
+      "case": "blood particles 0"
+    },
+    {
+      "function": "#%",
+      "readable": "spawnBloodParticles",
+      "case": "blood particles 1"
+    },
+    {
+      "function": "#%",
+      "readable": "spawnBloodParticles",
+      "case": "blood particles 4"
+    },
+    {
+      "function": "]",
+      "readable": "detachHat",
+      "case": "detach hat char"
+    },
+    {
+      "function": "]",
+      "readable": "detachHat",
+      "case": "detach hat char2"
+    },
+    {
+      "function": "return",
+      "readable": "applyHeadHitVariant3",
+      "case": "head hit standing"
+    },
+    {
+      "function": "return",
+      "readable": "applyHeadHitVariant3",
+      "case": "head hit crouch"
+    },
+    {
+      "function": "return",
+      "readable": "applyHeadHitVariant3",
+      "case": "head hit leaning"
+    },
+    {
+      "function": "return",
+      "readable": "applyHeadHitVariant3",
+      "case": "head hit ground"
+    },
+    {
+      "function": "return",
+      "readable": "applyHeadHitVariant3",
+      "case": "head hit facedown"
+    },
+    {
+      "function": " ",
+      "readable": "applyUpperBodyHitVariant1",
+      "case": "upper-body hit standing"
+    },
+    {
+      "function": " ",
+      "readable": "applyUpperBodyHitVariant1",
+      "case": "upper-body hit leaning"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": " set",
+      "readable": "applyFatalUpperBodyHit",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": "SubStomach1",
+      "readable": "SubStomach1",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": "SubStomach2",
+      "readable": "SubStomach2",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": "SubCrotch",
+      "readable": "SubCrotch",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": "each ",
+      "readable": "applyLegHitVariant1",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit standing bonus 0"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit leaning bonus 0"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit crouch bonus 0"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit standing bonus 4"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit leaning bonus 4"
+    },
+    {
+      "function": "catch",
+      "readable": "applyLegHitVariant2",
+      "case": "hit crouch bonus 4"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char standing y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char ground y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char dead y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char facedown y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 standing y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 ground y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 dead y280"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y120"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y126"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y135"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y145"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y155"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y165"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y180"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y190"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y205"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y220"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y240"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y260"
+    },
+    {
+      "function": "!%",
+      "readable": "dispatchCharacterHit",
+      "case": "dispatch char2 facedown y280"
+    }
+  ],
+  "scope": "Differential original AVM1 bytes vs recovered expressions in deterministic mock timelines; nested calls stubbed, no rendering/audio/runtime equivalence claim."
+}

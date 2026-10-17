@@ -1,0 +1,25 @@
+Push false, 2012093090, 2012093232
+Equals
+Not
+If loc006d
+loc0016:If loc003c
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"
+loc003c:Jump loc0061
+loc0041:GetVariable
+StackSwap
+Push "codein"
+GetVariable
+Push 7
+Multiply
+Push 18
+Subtract
+SetMember
+Jump loc0095
+loc0061:Push "newcode", "_parent"
+Jump loc0041
+loc006d:ConstantPool "codein", "newcode", "_parent"
+PushDuplicate
+Not
+Jump loc0090
+loc0090:Jump loc0016
+loc0095:

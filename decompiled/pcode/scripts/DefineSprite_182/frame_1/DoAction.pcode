@@ -1,0 +1,20 @@
+Push false, 783210137, 783210380
+Equals
+Not
+If loc0050
+loc0016:If loc002e
+ConstantPool "A", "B", "C", "D", "E", "F", "G"
+loc002e:Jump loc0044
+loc0033:GetVariable
+StackSwap
+Push 0f
+SetMember
+Stop
+Jump loc006a
+loc0044:Push "_visible", "this"
+Jump loc0033
+loc0050:ConstantPool "_visible", "this"
+PushDuplicate
+Not
+Jump loc0016
+loc006a:

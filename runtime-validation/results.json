@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "runtime": "@ruffle-rs/ruffle",
+  "runtime_version": "0.7.1",
+  "package_integrity_verified": true,
+  "rebuilt_sha256": "eac438bc7572d1df5aa7fe6d6a6b126c14ab675a2cfb2cf68d5e5bd7b6bcbb99",
+  "original_sha1": "f3a4dbfed5daa55d4bc5e70645557b4865ffd801",
+  "result": "tested_paths_pass",
+  "unmodified_rebuilt_swf_used": true,
+  "rebuilt_captured_console_warnings": 0,
+  "rebuilt_captured_console_errors": 0,
+  "regular_duel_damage_loss_test": "pass_without_cheats",
+  "win_and_round2_test": "pass_with_NOHIT_in_both_builds",
+  "bonus1_test": "initialization_bottle_animation_damage_and_miss_path_completion_pass_with_BONUS1_selector",
+  "full_campaign_verified": false,
+  "audio_fidelity_verified": false,
+  "online_services_verified": false,
+  "evidence": [
+    {
+      "path": "runtime-validation/original-round-2.jpg",
+      "sha256": "799f0e7e1ae2fbce77ae5ec8512fc2dce4750d95fe15b1019d275bf6b58492d1"
+    },
+    {
+      "path": "runtime-validation/original-round-complete.jpg",
+      "sha256": "96f429b884ddb42d5fdb7efdc9d627535078d75d4eda4f003904bbc0da1ce763"
+    },
+    {
+      "path": "runtime-validation/rebuilt-bonus-1-ready.jpg",
+      "sha256": "86132c880743148871897df72070140cc2c3500c7a541471d41db8af767a5b77"
+    },
+    {
+      "path": "runtime-validation/rebuilt-bonus-complete.jpg",
+      "sha256": "8dccc600c892526cc1ec26bc18e0ff50013ef35ec0dcaa5ebdf91de62a79f076"
+    },
+    {
+      "path": "runtime-validation/rebuilt-game-over.jpg",
+      "sha256": "869f170fc9623fd99effb47fbc356d44d731421968df13666ccf28c3c7d02f50"
+    },
+    {
+      "path": "runtime-validation/rebuilt-hit-damage.jpg",
+      "sha256": "cb227c835f3e2e1a533d6ed7cf39e97dab32b7aec31c7208d4233075dcface21"
+    },
+    {
+      "path": "runtime-validation/rebuilt-round-2.jpg",
+      "sha256": "af284426d1f9aab2e40ebed9e690300a0c18231075868ec8d514a19580104b62"
+    },
+    {
+      "path": "runtime-validation/rebuilt-round-complete.jpg",
+      "sha256": "2a6df7b885aae36edd02cfa23e63886b80dd074050dbede1ed0fb14c2469e891"
+    }
+  ]
+}

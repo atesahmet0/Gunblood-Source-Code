@@ -1,0 +1,30 @@
+Push false, 970332252, 970332636
+Equals
+Not
+If loc007d
+loc0016:If loc0034
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
+loc0034:Jump loc0044
+loc0039:GetVariable
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc0055
+loc0044:Push 1, "case", "_root"
+Jump loc0039
+loc0055:If loc0064
+GotoFrame 0
+Jump loc0099
+loc0064:GotoFrame 1
+Push 1813035629, 1813035975
+Equals
+Not
+If loc0099
+loc007d:ConstantPool "case", "_root"
+PushDuplicate
+Not
+Jump loc0094
+loc0094:Jump loc0016
+loc0099:

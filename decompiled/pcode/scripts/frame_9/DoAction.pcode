@@ -1,0 +1,32 @@
+Push false, 1851237743, 1851237881
+Equals
+Not
+If loc0083
+loc0016:If loc0038
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
+loc0038:Jump loc006b
+loc003d:GetVariable
+StackSwap
+Push "HIGH"
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+Jump loc00bd
+loc006b:Push "_visible", "each", "_visible", "4\"", "_visible", " in", "_quality", "_root"
+Jump loc003d
+loc0083:ConstantPool "HIGH", "_visible", "each", "4\"", " in", "_quality", "_root"
+PushDuplicate
+Not
+Jump loc00b8
+loc00b8:Jump loc0016
+loc00bd:

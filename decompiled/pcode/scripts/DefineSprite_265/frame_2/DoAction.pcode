@@ -1,0 +1,134 @@
+Push false, 1640788068, 1640788261
+Equals
+Not
+If loc01d6
+loc0016:If loc0034
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
+loc0034:DefineFunction "3$", 0 {
+Jump loc0049
+loc0043:DefineLocal
+Jump loc005f
+loc0049:Push "A", 1, "B", 0f
+Jump loc0043
+loc005f:DefineLocal
+loc0060:Push 20, "A"
+GetVariable
+StackSwap
+Greater
+If loc0165
+Jump loc0105
+loc0077:GetVariable
+Add2
+GetVariable
+DefineLocal
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "D"
+GetMember
+Push "C"
+GetVariable
+Push "E"
+GetMember
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "F"
+GetMember
+Push "C"
+GetVariable
+Push "G"
+GetMember
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "H"
+GetMember
+Push 4
+Subtract
+SetMember
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "I"
+GetMember
+Push 4
+Subtract
+SetMember
+GetVariable
+StackSwap
+Push "C"
+GetVariable
+Push "G"
+GetMember
+Push 3
+Add2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Greater
+Jump loc0130
+loc0105:Push 0f, "H", "C", "G", "C", "I", "C", "H", "C", "F", "C", "D", "C", "C", "J", "A"
+Jump loc0077
+loc0130:If loc0156
+Jump loc0149
+loc013a:GetVariable
+StackSwap
+Push 0f
+Jump loc0155
+loc0149:Push constant10, "C"
+Jump loc013a
+loc0155:SetMember
+loc0156:Push "A", "A"
+GetVariable
+Increment
+SetVariable
+Jump loc0060
+}
+loc0165:Push "A", 1
+DefineLocal
+loc0170:Push 20, "A"
+GetVariable
+StackSwap
+Greater
+If loc0220
+Jump loc01b7
+loc0187:GetVariable
+Add2
+GetVariable
+DefineLocal
+GetVariable
+StackSwap
+Push -15, 31
+RandomNumber
+Add2
+SetMember
+GetVariable
+StackSwap
+Push -25, 21
+RandomNumber
+Add2
+SetMember
+GetVariable
+Increment
+SetVariable
+Jump loc01d1
+loc01b7:Push "b", "b", "vy", "bottemp", "vx", "bottemp", "bottemp", "bp", "b"
+Jump loc0187
+loc01d1:Jump loc0170
+loc01d6:ConstantPool "b", "botsgo", "bottemp", "_x", "vx", "_y", "vy", "_xscale", "_yscale", "bp", "_visible"
+PushDuplicate
+Not
+Jump loc021b
+loc021b:Jump loc0016
+loc0220:

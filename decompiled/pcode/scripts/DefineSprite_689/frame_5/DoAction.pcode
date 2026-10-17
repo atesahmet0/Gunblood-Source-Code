@@ -1,0 +1,36 @@
+Push false, 1333381276, 1333381354
+Equals
+Not
+If loc007a
+loc0016:If loc002c
+ConstantPool "A", "B", "C", "D", "E", "F"
+loc002c:Jump loc0059
+loc0031:GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+SetVariable
+GetVariable
+StackSwap
+GetMember
+Add2
+SetVariable
+GetVariable
+StackSwap
+Push "Selection"
+GetVariable
+Push "setFocus"
+CallMethod
+Pop
+Jump loc00d8
+loc0059:Push 1, " each", "\"!", "www.gunblood.com/play/?g=", "use", "_root", "7#", "use", "_root", "newscores", "_root"
+Jump loc0031
+loc007a:ConstantPool "Selection", "setFocus", " each", "\"!", "www.gunblood.com/play/?g=", "use", "_root", "7#", "newscores"
+PushDuplicate
+Not
+Jump loc00d3
+loc00d3:Jump loc0016
+loc00d8:

@@ -1,0 +1,19 @@
+Push false, 1942184161, 1942184495
+Equals
+Not
+If loc0048
+loc0016:If loc0024
+ConstantPool "A", "B"
+loc0024:Jump loc0032
+loc0029:GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc0066
+loc0032:Push 3, 1, "gotoAndStop", "_root"
+Jump loc0029
+loc0048:ConstantPool "gotoAndStop", "_root"
+PushDuplicate
+Not
+Jump loc0016
+loc0066:

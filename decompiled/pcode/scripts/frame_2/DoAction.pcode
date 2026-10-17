@@ -1,0 +1,56 @@
+Push false, 398213422, 398213743
+Equals
+Not
+If loc0129
+loc0016:If loc003a
+ConstantPool "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
+loc003a:Jump loc0086
+loc003f:GetVariable
+StackSwap
+Push "HIGH"
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+Push 0f
+SetMember
+NewObject
+SetVariable
+RandomNumber
+Add2
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+SetVariable
+NewObject
+SetVariable
+NewObject
+SetVariable
+NewObject
+SetVariable
+SetVariable
+SetVariable
+Stop
+Jump loc01cc
+loc0086:Push " if", 0f, "\"%", 0f, ";!", 0f, "Array", "sbloods2", 0f, "Array", "sbloods", 0f, "Array", "bonuslevel", 0f, "null ", 0f, "totalscore", 0f, "`$", 0f, "throw", 0f, "3%", 0f, "9\"", 0f, "hitstaken", 0f, "1\"", 2, ">#", 0f, "gamelevel", 1, "<%", 1, 99, "null", 0f, "Array", "_visible", "each", "_visible", "4\"", "_visible", " in", "_quality", "_root"
+Jump loc003f
+loc0129:ConstantPool "HIGH", " if", "\"%", ";!", "Array", "sbloods2", "sbloods", "bonuslevel", "null ", "totalscore", "`$", "throw", "3%", "9\"", "hitstaken", "1\"", ">#", "gamelevel", "<%", "null", "_visible", "each", "4\"", " in", "_quality", "_root"
+PushDuplicate
+Not
+Jump loc0016
+loc01cc:

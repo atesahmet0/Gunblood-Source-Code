@@ -1,0 +1,106 @@
+Push false, 1308750818, 1308751075
+Equals
+Not
+If loc015a
+loc0016:If loc0026
+ConstantPool "A", "B", "C"
+loc0026:Jump loc0056
+loc002b:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Push 1
+SetMember
+Jump loc0085
+loc0056:Push "bi", 1, "birdgo", "mainclip", "scaleclip", "_root", "gameon", "mainclip", "scaleclip", "_root", 0f, "start", 119, "allsounds", "_root"
+Jump loc002b
+loc0085:DefineLocal
+loc0086:Push 6, "bi"
+GetVariable
+StackSwap
+Greater
+If loc0107
+Jump loc00d6
+loc009d:GetVariable
+Add2
+GetVariable
+DefineLocal
+RandomNumber
+Add2
+DefineLocal
+GetVariable
+StackSwap
+Push "birdclip"
+GetVariable
+Push "wing1"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "birdclip"
+GetVariable
+Push "wing2"
+GetMember
+Push "gotoAndPlay"
+CallMethod
+Pop
+GetVariable
+Increment
+SetVariable
+Jump loc0102
+loc00d6:Push "bi", "bi", 1, "2\"", 1, "2\"", "2\"", 18, 6, "birdclip", "_root.scaleclip.mainclip.birdclip", "bi"
+Jump loc009d
+loc0102:Jump loc0086
+loc0107:Push "starttime", "mainclip", "scaleclip", "_root"
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetTime
+SetMember
+Jump loc0145
+loc011f:GetVariable
+Push "scaleclip"
+GetMember
+Push "mainclip"
+GetMember
+Push "Shoot2"
+CallMethod
+Pop
+GetVariable
+StackSwap
+GetMember
+StackSwap
+Push 0f
+SetMember
+Jump loc020e
+loc0145:Push "_visible", "pausebox", "_root", 0f, "_root"
+Jump loc011f
+loc015a:ConstantPool "bi", "birdgo", "mainclip", "scaleclip", "_root", "gameon", "start", "allsounds", "birdclip", "wing1", "gotoAndPlay", "wing2", "2\"", "_root.scaleclip.mainclip.birdclip", "starttime", "Shoot2", "_visible", "pausebox"
+PushDuplicate
+Not
+Jump loc0209
+loc0209:Jump loc0016
+loc020e:

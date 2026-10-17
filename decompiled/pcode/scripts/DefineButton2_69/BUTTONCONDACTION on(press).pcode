@@ -1,0 +1,98 @@
+Push false, 682593858, 682594199
+Equals
+Not
+If loc0134
+loc0016:If loc0026
+ConstantPool "A", "B", "C"
+loc0026:Jump loc0062
+loc002b:GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+CallMethod
+Pop
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "totalscore"
+GetMember
+Push "0!"
+GetVariable
+ToNumber
+Push "&!"
+GetVariable
+ToNumber
+Add2
+ToNumber
+Add2
+SetMember
+GetVariable
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+GetMember
+StackSwap
+Equals2
+Not
+Jump loc008b
+loc0062:Push 0f, "bonusgo", "mainclip", "scaleclip", "_root", "totalscore", "_root", 0f, "start", 45, "allsounds", "_root"
+Jump loc002b
+loc008b:If loc00da
+Jump loc00c9
+loc0095:GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "gamelevel"
+GetMember
+Push 1
+Add2
+SetMember
+GetVariable
+StackSwap
+Push "_root"
+GetVariable
+Push "levelout"
+GetMember
+Push 1
+Add2
+Jump loc00d9
+loc00c9:Push "levelout", "_root", "gamelevel", "_root"
+Jump loc0095
+loc00d9:SetMember
+loc00da:Push "0!"
+GetVariable
+ToNumber
+Push "&!"
+GetVariable
+ToNumber
+Add2
+Push 1, "_root"
+GetVariable
+Push ";!"
+GetMember
+Push "push"
+CallMethod
+Pop
+Jump loc0117
+loc0106:GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+GetVariable
+StackSwap
+CallMethod
+Pop
+Jump loc01c1
+loc0117:Push 0f, "removeMovieClip", "_parent", 4, 1, "_root"
+Jump loc0106
+loc0134:ConstantPool "_root", "totalscore", "0!", "&!", "bonusgo", "mainclip", "scaleclip", "start", "allsounds", "gamelevel", "levelout", ";!", "push", "gotoAndPlay", "removeMovieClip", "_parent"
+PushDuplicate
+Not
+Jump loc0016
+loc01c1:

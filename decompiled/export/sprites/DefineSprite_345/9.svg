@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="frame" height="131.7px" width="111.4px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 33.75, 108.65)">
+    <use ffdec:characterId="342" height="103.2" transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" width="42.9" xlink:href="#shape0"/>
+    <use ffdec:characterId="327" height="68.5" id="bodyblood1" transform="matrix(1.0, 0.0, 0.0, 1.0, -4.5, -78.35)" width="34.7" xlink:href="#sprite0"/>
+    <use ffdec:characterId="329" height="51.5" id="bodyblood2" transform="matrix(0.9915, -0.1265, 0.1265, 0.9915, 0.9, -57.05)" width="37.4" xlink:href="#sprite1"/>
+    <use ffdec:characterId="331" height="54.95" id="bodyblood3" transform="matrix(0.9954, -0.0924, 0.0924, 0.9954, 0.65, -25.7)" width="36.7" xlink:href="#sprite2"/>
+    <use ffdec:characterId="333" height="69.5" id="bodyblood4" transform="matrix(0.9785, -0.1173, 0.1173, 0.9785, -0.5, -43.3)" width="38.4" xlink:href="#sprite3"/>
+    <use ffdec:characterId="335" height="53.7" id="bodyblood5" transform="matrix(1.1333, 0.0, 0.0, 1.1333, -3.3, -50.0)" width="33.95" xlink:href="#sprite4"/>
+    <use ffdec:characterId="315" height="24.3" id="knife2" transform="matrix(1.0, 0.0, 0.0, 1.0, 37.55, -45.75)" width="53.95" xlink:href="#sprite5"/>
+    <use ffdec:characterId="315" height="24.3" id="knife3" transform="matrix(0.9601, 0.2766, -0.2766, 0.9601, 35.25, -20.3)" width="53.95" xlink:href="#sprite5"/>
+    <use ffdec:characterId="315" height="24.3" id="knife1" transform="matrix(0.9718, -0.2311, 0.2311, 0.9718, 33.2, -72.55)" width="53.95" xlink:href="#sprite5"/>
+  </g>
+  <defs>
+    <g id="shape0">
+      <path d="M5.85 -76.95 Q7.7 -76.05 13.95 -68.45 20.2 -60.85 16.6 -41.8 12.95 -22.75 12.45 -7.0 11.9 8.75 -7.45 6.05 -26.85 3.3 -24.55 -7.4 -22.2 -18.15 -24.0 -38.35 -25.85 -58.55 -24.35 -66.0 -22.85 -73.45 -12.9 -78.9 L-13.1 -78.1 Q-13.8 -75.2 -11.0 -74.1 L-4.05 -71.9 Q0.05 -70.85 3.1 -71.95 6.1 -73.05 5.9 -75.9 L5.85 -76.95" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+      <path d="M-12.9 -78.9 Q-10.45 -89.3 -10.25 -96.75 L5.75 -95.6 Q4.95 -88.75 5.85 -76.95 L5.9 -75.9 Q6.1 -73.05 3.1 -71.95 0.05 -70.85 -4.05 -71.9 L-11.0 -74.1 Q-13.8 -75.2 -13.1 -78.1 L-12.9 -78.9" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    </g>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.1115, 0.0109, -0.0109, 0.1112, -26.65, -80.65)" gradientUnits="userSpaceOnUse" id="gradient0" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#7db101"/>
+      <stop offset="1.0" stop-color="#2b3c00"/>
+    </radialGradient>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.0367, 0.0036, -0.005, 0.051, -5.2, -56.95)" gradientUnits="userSpaceOnUse" id="gradient1" r="819.2" spreadMethod="pad">
+      <stop offset="0.23529411764705882" stop-color="#d3bba9"/>
+      <stop offset="1.0" stop-color="#af7a58"/>
+    </radialGradient>
+  </defs>
+</svg>

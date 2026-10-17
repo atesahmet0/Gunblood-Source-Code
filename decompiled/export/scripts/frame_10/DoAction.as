@@ -1,0 +1,11 @@
+var _temp_6 = "_visible";
+var _temp_5 = "each";
+var _temp_4 = "_visible";
+var _temp_3 = "4\"";
+var _temp_2 = "_visible";
+var _temp_1 = " in";
+var _temp_1 = "_quality";
+_root[_temp_1] = "HIGH";
+eval(_temp_1)[_temp_2] = 0;
+eval(_temp_3)[_temp_4] = 0;
+eval(_temp_5)[_temp_6] = 0;

@@ -1,0 +1,31 @@
+Push false, 1701352112, 1701352269
+Equals
+Not
+If loc007c
+loc0016:If loc002e
+ConstantPool "A", "B", "C", "D", "E", "F", "G"
+loc002e:Jump loc003c
+loc0033:GetVariable
+StackSwap
+Equals2
+Not
+Jump loc0048
+loc003c:Push "dead", "pos"
+Jump loc0033
+loc0048:If loc0057
+GotoFrame 293
+Jump loc0091
+loc0057:GotoFrame 274
+Play
+Push 333417075, 333417393
+Equals
+Not
+If loc0091
+With {
+Unknown_58
+Jump loc0091
+loc007c:ConstantPool "dead", "pos"
+PushDuplicate
+Not
+Jump loc0016
+loc0091:}

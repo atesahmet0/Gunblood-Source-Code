@@ -1,0 +1,14 @@
+var _temp_8 = "newscores";
+var _temp_7 = 1;
+var _temp_6 = "_quality";
+var _temp_5 = "_root";
+var _temp_4 = "_visible";
+var _temp_3 = "each";
+var _temp_2 = "_visible";
+var _temp_1 = "4\"";
+var _temp_1 = "_visible";
+eval(" in")[_temp_1] = 0;
+eval(_temp_1)[_temp_2] = 0;
+eval(_temp_3)[_temp_4] = 0;
+eval(_temp_5)[_temp_6] = "HIGH";
+set(_temp_8,1);
